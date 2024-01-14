@@ -5,14 +5,14 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 
-root_folder = "./Produtos/"
+root = "./Produtos/"
 pattern_file = r"\blist_\w+"
 pattern_link = r"https?://(?:www\.)?([^/.]+)\."
 
 def main():
     date_today = date.today().strftime("%Y_%m_%d")
 
-    files_web_links = get_link_files()
+    files_web_links = get_pattern_files(root, pattern_file)
 
     for file_path in files_web_links:
         file_path_folder = file_path.rsplit('/', 1)[0]
@@ -26,19 +26,16 @@ def main():
             else:
                 print("Failed Request: ", link)
 
-# Não é uma forma eficiente de fazer isto
-# 
-# Guardar o caminho relativos dos ficheiros em uma
-# ou
-# Agrupar estes ficheiros numa pasta à parte
-def get_link_files() -> list[str]:
+
+def get_pattern_files(root_folder, pattern) -> list[str]:
     list_files = []
-    for root, dirs, files in os.walk(root_folder):
-       for filename in files:
-            matches_list = re.findall(pattern_file, filename)
+    for folder in os.listdir(root_folder):
+        folder_path = root_folder + folder
+        for filename in os.listdir(folder_path):
+            matches_list = re.findall(pattern, filename)
             if len(matches_list) == 1:
                 file_web_links = matches_list[0]
-                file_path = os.path.join(root, filename)
+                file_path = os.path.join(folder_path, filename)
                 list_files.append(file_path)
     return list_files
 
@@ -56,7 +53,7 @@ def write_html_to_path(html, date, path, site):
         os.makedirs(path_folder)
 
     if os.path.exists(path_file):
-        print(f"File {path_file} already exists", path_file)
+        print(f"File {path_file} already exists")
     else:
         with open (path_file, 'w') as file:
             file.write(html)

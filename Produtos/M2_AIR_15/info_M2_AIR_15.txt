@@ -1,0 +1,5 @@
+Tamanho: 15
+Cor: Prateado
+Modelo Processador: M2
+Capacidade da memória incorporada: 8 GB
+Capacidade total de armazenamento: 256 GB

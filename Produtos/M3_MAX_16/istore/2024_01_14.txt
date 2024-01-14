@@ -1,0 +1,2552 @@
+<!doctype html>
+<html lang="pt">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+<script>
+    var BASE_URL = 'https\u003A\u002F\u002Fwww.istore.pt\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fwww.istore.pt\u002Fstatic\u002Ffrontend\u002FToogas\u002FDefault\u002Fpt_PT'
+    };</script> <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:[]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"538494235",accountID:"4061400",trustKey:"4061400",licenseKey:"NRJS-ef462ee15878ef2f7ca",applicationID:"461652406"};;/*! For license information please see nr-loader-rum-1.250.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,DL:()=>A,OP:()=>S,lF:()=>T,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>_,sU:()=>R});var n=r(8632),i=r(9567);const a={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a);const r=(0,n.ek)(e);r&&(r.info=o[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},w={};function A(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!w[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return w[e]}function _(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");w[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=w[e])}const x=(0,n.mF)().o;var E=r(385),D=r(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},j={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!j[e])throw new Error("Runtime for ".concat(e," was never set"));return j[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");j[e]=(0,i.D)(t,k);const r=(0,n.ek)(e);r&&(r.runtime=j[e])}function T(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>a,q4:()=>n});const n="1.250.0",i="PROD",a="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=(a?.document?.readyState,Boolean("hidden"===a?.document?.visibilityState)),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>a});var n=r(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),a=r(4322),o=r(3325);const s={};function c(e,t){const r={staged:!1,priority:o.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const r=[...s[e]];function o(t){const r=e?n.ee.get(e):n.ee,o=a.X.handlers;if(r.backlog&&o){var s=r.backlog[t],c=o[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete o[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),o(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),a=r(234);class o{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(u.aborted&&!i)return;t&&a&&t.emit(e,r,n);for(var o=p(n),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(o,r);var f=b()[s[e]];f&&f.push([g,e,r,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){n[e]=v(e).concat(t)}function v(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>a});var n=r(5546);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.E,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.E);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var n=r(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>o,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var s=0;s<e;s++)o.push(a(r,i++).toString(16));return o.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>c,oD:()=>i,uT:()=>s,wO:()=>o});const n="NRBA",i=144e5,a=18e5,o={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},s={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),a=r(3325),o=r(385);const s="newrelic";const c={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{o._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>a});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>o,b2:()=>a});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.bP)("load",e,t)}function o(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>a,ek:()=>u,fP:()=>o,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=o();return t.initializedAgents?.[e]}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>a,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>o});const n=r(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),a=r(5546),o=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),g=r(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...n))})),a.length>1?a:a[0]}(t,...n)}}))}var h=r(2825);const v=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:E=!0}=t;const D=(0,g.gG)();A||(w=D.init,A=D.info,_=D.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,_||{}),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,A);const k=(0,i.P_)(e.agentIdentifier),j=[A.beacon,A.errorBeacon];m||(k.proxy.assets&&(v(k.proxy.assets),j.push(k.proxy.assets)),k.proxy.beacon&&j.push(k.proxy.beacon),p(),(0,g.EZ)("activatedFeatures",h.T)),x.denyList=[...k.ajax.deny_list||[],...k.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,x),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,r,n,a){const o=(0,i.C5)(e);return null===r?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:r}}),A(v,n,!0,a||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,a.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,a.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},g.pauseReplay=function(){(0,a.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,a.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,a.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],r),e}finally{h.emit("fn-end",[(0,s.z)()],r)}}}};function A(e,t,r,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function _(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>_()),!0):_(),g}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=E),m=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.250.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.250.0.PROD:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}if(!s){c=!0;var f={75:"sha512-2/f4ks7UUkz/V5qC88wpBuGtLglDVUbydMJpZeUMyA/1ChnpO/Q00ZY/7dABphVkZ8zpnV6zFxxikFwJCMiQRg=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[o]&&(s.integrity=f[o])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,u=0;if(o.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<o.length;u++)a=o[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.250.0.PROD"]=self["webpackChunk:NRBA-1.250.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(e){return"Call to agent api ".concat(e," failed. The agent is not currently initialized.")}addPageAction(t,r){(0,e.Z)(this.#e("addPageAction"))}setPageViewName(t,r){(0,e.Z)(this.#e("setPageViewName"))}setCustomAttribute(t,r,n){(0,e.Z)(this.#e("setCustomAttribute"))}noticeError(t,r){(0,e.Z)(this.#e("noticeError"))}setUserId(t){(0,e.Z)(this.#e("setUserId"))}setApplicationVersion(t){(0,e.Z)(this.#e("setApplicationVersion"))}setErrorHandler(t){(0,e.Z)(this.#e("setErrorHandler"))}finished(t){(0,e.Z)(this.#e("finished"))}addRelease(t,r){(0,e.Z)(this.#e("addRelease"))}start(t){(0,e.Z)(this.#e("start"))}recordReplay(){(0,e.Z)(this.#e("recordReplay"))}pauseReplay(){(0,e.Z)(this.#e("pauseReplay"))}}var r=i(3325),n=i(234);const a=Object.values(r.D);function o(e){const t={};return a.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,957));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,d.b2)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,r),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var a=this.getBucket(e,t,r,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,a.metrics),a}merge(e,t,r,n,i){var a=this.getBucket(e,t,n,i);if(a.metrics){var o=a.metrics;o.count+=r.count,(0,v.D)(r,(function(e,t){if("count"!==e){var n=o[e],i=r[e];i&&!i.c?o[e]=b(i.t,n):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=w(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),E=i(4351);var D=i(5546),k=i(7956),j=i(3239),S=i(7894),R=i(9251);class T extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,k.N)((()=>(0,D.p)("docHidden",[(0,S.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,D.p)("winPagehide",[(0,S.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class P extends f{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=o(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,T,P],loaderType:"lite"})})()})();</script>
+<meta name="title" content="MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral   - iStore.pt - O teu especialista Apple em Portugal" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+<title>MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral   - iStore.pt - O teu especialista Apple em Portugal</title>
+<link rel="stylesheet" type="text/css" media="all" href="https://www.istore.pt/static/_cache/merged/4ff81dc87bf6771cdc89510962e0e1ac.min.css" />
+<link rel="stylesheet" type="text/css" rel="stylesheet" type="text/css" href="https://www.istore.pt/static/_cache/merged/5a0474d5f2cd24d665161463f9b47901.min.css" />
+<script type="text/javascript" src="https://www.istore.pt/static/_cache/merged/69d454001ebfb31f4b1f92214d1a709f.min.js"></script>
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/fonts/opensans/light/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/fonts/opensans/regular/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/fonts/opensans/semibold/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/fonts/opensans/bold/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/fonts/Luma-Icons.woff2" />
+<link rel="canonical" href="https://www.istore.pt/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral" />
+<link rel="icon" type="image/x-icon" href="https://www.istore.pt/media/favicon/default/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.istore.pt/media/favicon/default/favicon.ico" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3WSD3JY1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3WSD3JY1R');
+</script>
+
+<meta name="facebook-domain-verification" content="0l2fee16dim7gfgiwawwjlcjgbm2io" />
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3432274,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<meta name="p:domain_verify" content="rwUF1pZM9M1JAVfk6OOFWs9bQfsSxze1" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<script>
+if(window._mtmReady){ 
+ console.error('Connected sites script already loaded. You might have it dupplicated.'); 
+} else { 
+window._mtmReady=true; 
+var _mtm = window._mtm = window._mtm || [];
+_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.async=true; g.src='https://egoi.site/761003_istore.pt.js'; 
+s.parentNode.insertBefore(g,s);
+}
+</script>
+
+<script async charset="UTF-8" src="https://ui.swogo.net/bundles/v4/istorePt/swogo.js"></script>
+<script src="https://consent.cookiefirst.com/sites/istore.pt-1c20200b-68b5-40fa-bb43-1dfa78eb808b/consent.js"></script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "pixel": {"id":"1791797947816072","current_user":"1791797947816072","action":"catalog_product_view","triggerPageView":true,"productData":"{\"content_name\":\"MB Pro 16 M3 Max 14c CPU\\\/30c GPU 1TB Preto sideral\",\"content_ids\":\"MRW33PO\\\/A\",\"content_type\":\"product\",\"value\":4349,\"currency\":\"EUR\"}","categoryData":"[]","orderData":"[]","checkoutInitialization":null,"addToWishlist":null,"customerRegistration":null,"searchData":null,"paymentInfoData":null}        }
+    }
+</script>
+
+<noscript>
+    <img height="1" width="1"
+         style="display:none"
+         alt="Facebook Pixel"
+         src="https://www.facebook.com/tr?id=1791797947816072&ev=PageView&noscript=1"
+    />
+</noscript>
+
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "magepalGtmDatalayer": {
+                "isCookieRestrictionModeEnabled": 0,
+                "currentWebsite": 1,
+                "cookieName": "user_allowed_save_cookie",
+                "dataLayer": "dataLayer",
+                "accountId": "GTM-K5WC5FB",
+                "data": [{"ecommerce":{"currencyCode":"EUR"},"pageType":"catalog_product_view","list":"detail"},{"event":"productPage","product":{"id":"19521","sku":"MRW33PO\/A","parent_sku":"MRW33PO\/A","product_type":"simple","name":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","price":3535.77,"attribute_set_id":"4","path":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","category":"MacBook Pro 14 e 16","image_url":"https:\/\/www.istore.pt\/media\/catalog\/product\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg"}}],
+                "isGdprEnabled": 0,
+                "gdprOption": 0,
+                "addJsInHeader": 0,
+                "containerCode": ""
+            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_PageCache/js/form-key-provider": {}
+            }
+        }
+    </script>
+<style>
+    #social-login-popup .social-login-title {
+        background-color: #3399cc    }
+
+    #social-login-popup .social-login #bnt-social-login-authentication,
+    #social-login-popup .forgot .primary button,
+    #social-login-popup .create .primary button {
+        background-color: #3399cc;
+        border: #3399cc    }
+
+    
+    /* Compatible ETheme_YOURstore*/
+    div#centerColumn .column.main .block.social-login-authentication-channel.account-social-login {
+        max-width: 900px !important;
+        margin: 0 auto !important;
+    }
+
+    div#centerColumn .column.main .block.social-login-authentication-channel.account-social-login .block-content {
+        text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+        div#centerColumn .column.main .block.social-login-authentication-channel.account-social-login .block-content {
+            padding: 0 15px;
+        }
+    }
+</style>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral",
+        "image": "https://www.istore.pt/media/catalog/product/cache/f3271781e1fad5609482f2fccac2806d/m/a/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg",
+        "description": "
+
+Processador M3 Max da Apple com CPU 14‑core, GPU 30‑core, Ray tracing acelerado por hardware.
+
+
+Ecrã Liquid Retina XDR de 16,2&quot; (diagonal); resolução de 3456x2234 píxeis a 254 píxeis por polegada
+
+
+ 1Tb de armazenamento SSD
+
+
+ 36 GB de memória unificada
+
+
+ 3 portas Thunderbolt/USB 4
+
+
+ Wi‑Fi 6E (802.11ax), Bluetooth 5.3
+
+2,16 kg
+",
+        "url": "https://www.istore.pt/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral",
+        "brand": {
+            "@type": "Brand",
+            "name": "APPLE"
+        },
+        "sku": "MRW33PO/A",
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+             "price": "4349.00"
+        }
+    }
+</script>
+
+<meta name="twitter:card" content="product" />
+<meta name="twitter:domain" content="https://www.istore.pt/" />
+<meta name="twitter:site" content />
+<meta name="twitter:creator" content />
+<meta name="twitter:title" content="MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral" />
+<meta name="twitter:description" content />
+<meta name="twitter:image" content="https://www.istore.pt/media/catalog/product/cache/f3271781e1fad5609482f2fccac2806d/m/a/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg" />
+<meta name="twitter:data1" content="EUR4349.00" />
+<meta name="twitter:label1" content="PRICE" />
+<meta name="twitter:data2" content="PT" />
+<meta name="twitter:label2" content="LOCATION" />
+
+
+<meta property="og:site_name" content />
+<meta property="og:type" content="og:product" />
+<meta property="og:title" content="MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral" />
+<meta property="og:image" content="https://www.istore.pt/media/catalog/product/cache/f3271781e1fad5609482f2fccac2806d/m/a/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg" />
+<meta property="og:description" content />
+<meta property="og:url" content="https://www.istore.pt/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral" />
+<meta property="product:price:amount" content="4349.00" />
+<meta property="product:price:currency" content="EUR" />
+<meta property="product:availability" content="instock" />
+
+</head>
+<body data-container="body" data-mage-init="{&quot;loaderAjax&quot;: {}, &quot;loader&quot;: { &quot;icon&quot;: &quot;https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/images/loader-2.gif&quot;}}" id="html-body" class="catalog-product-view product-apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral page-layout-1column">
+<script type="text/javascript" po_cmp_ignore>
+//<![CDATA[
+var mbPopupParams = {"storeId":"1","previewId":0,"templateId":0,"popupPageId":2,"filterId":"19521","page":"1","rootUrl":"https:\/\/www.istore.pt\/","pubDir":"","baseUrl":"https:\/\/www.istore.pt\/","doGaTracking":false,"doMousetracking":false,"customParams":""};
+//]]>
+</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K5WC5FB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_PageBuilder/js/widget-initializer": {
+                "config": {"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},
+                "breakpoints": {"desktop":{"label":"Desktop","stage":true,"default":true,"class":"desktop-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-desktop.svg","conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"label":"Mobile","stage":true,"class":"mobile-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-mobile.svg","media":"only screen and (max-width: 768px)","conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".www.istore.pt",
+                "secure": false,
+                "lifetime": "31556926"
+            }
+        }
+    }
+</script>
+<noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>O JavaScript parece estar desativado no seu browser.</strong>
+                    <span>
+                        Para usufruir da melhor experiência no nosso site, certifique-se que ativa o JavaScript no seu browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script><script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.istore.pt\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.istore.pt\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+<script type="text/x-magento-init">
+    {
+        "*":
+            {
+                "Magento_Ui/js/core/app": {"components":{"pixel.addToCart.component":{"component":"Toogas_FacebookPixel\/js\/pixel\/sections\/addToCart"}}}            }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "*":
+            {
+                "Magento_Ui/js/core/app": {"components":{"pixel.subscribe.newsletter.component":{"component":"Toogas_FacebookPixel\/js\/pixel\/sections\/subscribeNewsletter"}}}            }
+    }
+</script><div class="page-wrapper"> <script type="text/javascript">
+        window.recaptchaElement  = [];
+
+        var CaptchaCallback = function(){
+            jQuery(document).find('.g-recaptcha').each(function(index, el) {
+                //random from 1-100
+                var elemId = 'recaptcha' + Math.floor(Math.random() * Math.floor(100));
+                jQuery(el).attr('id', elemId);
+                window.recaptchaElement[elemId] = grecaptcha.render(elemId, {
+                    'sitekey'  : '6Le_R7gUAAAAALRNzj1Q_pUu3Ursw6Eol1ZoL-g4',
+                    'theme'    : 'light',
+                    'callback' : function(response){
+                        if(grecaptcha.getResponse(window.recaptchaElement[elemId])){
+                            jQuery(el).attr('data-okresponse', true);
+                        }
+                    }
+                });
+            });
+        };
+
+        function onSubmitCheck(recaptchaEl) {
+            if(!recaptchaEl.data('okresponse')){
+                if(!recaptchaEl.find('p').length){
+                    recaptchaEl.append('<p></p>');
+                }
+                var rcp = recaptchaEl.find('p');
+                rcp.html('<p style="color:red !important" class="error-captcha">Please fill up the captcha.</p>');
+                return false;
+            }
+            return true;
+        }
+
+        jQuery(document).ready(function($){
+            $(document).find('form').submit(function(e){
+                var recaptchaEl = $(this).find('.g-recaptcha');
+
+                if(recaptchaEl.length > 0){
+                    var check = onSubmitCheck(recaptchaEl);
+
+                    if(!check){
+                        return false;
+                    }
+                    /*setTimeout(function(){
+                        grecaptcha.reset(window.recaptchaElement[recaptchaEl.attr('id')]);
+                        recaptchaEl.attr('data-okresponse', false);
+                    }, 1000);*/
+                }
+            });
+        });
+
+    </script>
+<script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&render=explicit&hl=" async defer></script>
+<script>
+    var BASE_URL = "https://www.istore.pt/";
+    var customerSession = {
+        isLoggedIn: ''
+    };
+    window.ajaxSelectors = {
+        minicart: {
+            content: '.miniCartContainer',
+            qty: '.items-qty'
+        },
+        wishlistpage: {
+            content: '.column.main'
+        },
+        cartpage: {
+            content: '.checkout-cart-index .column.main'
+        }
+    };
+</script>
+
+<div id="site-preloader"><div class="loader"></div></div>
+
+
+<div id="site-loader"><div class="loader"></div></div>
+
+<header>
+<div class="header-container container-fluid page-container">
+<div class="logo-holder hidden-xs">
+<a class="logo" href="https://www.istore.pt/" title>
+<img src="https://www.istore.pt/media/logo/default/LOGOISTORE.png" title alt class="img-responsive" />
+</a>
+</div>
+<div class="mobile-menu-toggler">
+<i aria-hidden="true" class="fa fa-bars"></i>
+</div>
+<div class="mobile-logo visible-xs">
+<a class="logo" href="https://www.istore.pt/" title>
+<img src="https://www.istore.pt/media/logo/default/LOGOISTORE.png" title alt class="img-responsive" />
+</a>
+</div>
+<div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
+<nav class="navigation top-links-container hidden-xs">
+<ul class="list-inline ">
+<li style="margin-left: 110px;"><a href="https://istore.pt/blog"><span>Blog</span></a></li> 
+<li style="margin-left: 10px;"><a href="https://www.istore.pt/assistencia-tecnica"><span>Assistência Técnica</span></a></li>
+<li style="margin-left: 10px;"><a href="https://istore.pt/empresas"><span>Empresas</span></a></li>
+<li style="margin-left: 10px;"><a href="https://www.istore.pt/educacao"><span>Educação</span></a></li>
+<li style="margin-left: 10px;"><a href="https://www.istore.pt/retomas"><span">Retomas</span></a></li>
+<li style="margin-left: 10px;"><a href="https://www.istore.pt/istore-plus"><span>iStore plus</span></a></li>
+
+</ul>
+</nav>
+<style xml="space"><!--
+.cart .item-info .action-towishlist {display:none;}
+--></style></div>
+<div class="header-right pull-right">
+<div class="dropdown user-dropdown-holder is-inline">
+<a class="dropdown-toggle" href="#" id="user-dropdown" data-toggle="dropdown">
+<i aria-hidden="true" class="fa fa-user"></i>
+</a>
+<div class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="user-dropdown">
+<ul class="header links"><li><a href="https://www.istore.pt/customer/account/" id="idwOuEJch0">A Minha Conta</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+<a href="https://www.istore.pt/wishlist/">Os Meus Favoritos <!-- ko if: wishlist().counter -->
+<span data-bind="text: wishlist().counter" class="counter qty"></span>
+<!-- /ko -->
+</a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<li class="link authorization-link" data-label="ou">
+<a href="https://www.istore.pt/customer/account/login/referer/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/">Iniciar Sessão</a>
+</li>
+</ul> </div>
+</div>
+<div class="dropdown search-dropdown-holder is-inline">
+<a onclick="showFormSearch()" href="javascript:void(0)" id="search-dropdown">
+<i aria-hidden="true" class="fa fa-search"></i>
+</a>
+</div>
+<div class="dropdown cart-dropdown-holder is-inline">
+<a class="dropdown-toggle" href="#" id="cart-dropdown" data-toggle="dropdown">
+<i aria-hidden="true" class="fa fa-shopping-bag"></i> <span class="items-qty">0</span>
+</a>
+<div class="dropdown-menu dropdown-menu-right minicart-container" role="menu" aria-labelledby="cart-dropdown">
+<div data-block="minicart" class="minicart-wrapper">
+<div class="block block-minicart empty" data-role="dropdownDialog" data-mage-init="{&quot;dropdownDialog&quot;:{
+            &quot;appendTo&quot;:&quot;[data-block=minicart]&quot;,
+            &quot;triggerTarget&quot;:&quot;.showcart&quot;,
+            &quot;timeout&quot;: &quot;2000&quot;,
+            &quot;closeOnMouseLeave&quot;: false,
+            &quot;closeOnEscape&quot;: true,
+            &quot;triggerClass&quot;:&quot;active&quot;,
+            &quot;parentClass&quot;:&quot;active&quot;,
+            &quot;buttons&quot;:[]}}">
+<div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+</div>
+<script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.istore.pt\/checkout\/cart\/","checkoutUrl":"https:\/\/www.istore.pt\/checkout\/","updateItemQtyUrl":"https:\/\/www.istore.pt\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.istore.pt\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.istore.pt\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","storeGroupId":"1","customerLoginUrl":"https:\/\/www.istore.pt\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.istore.pt\/captcha\/refresh\/","isRequired":false,"timestamp":1705245009}}};
+    </script>
+<script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":1,"display_cart_subtotal_excl_tax":0,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"Magento_Checkout\/js\/view\/cart-item-renderer","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/images/loader-1.gif"
+        }
+    }
+    </script>
+</div>
+</div>
+</div>
+</div>
+<div class="main-menu-holder text-center">
+<nav class="navigation main-menu-container" data-action="navigation">
+<ul class="list-inline">
+<li class="level0 nav-1 category-item first level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/catalog/category/view/s/mac/id/3/" class="level-top"><span>Mac</span></a><ul class="level0 submenu"><li class="level1 nav-1-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/catalog/category/view/s/macbook-air/id/12/"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/MacBook_Air_15_M2_Icon.jpg" /></div></a><a href="https://www.istore.pt/catalog/category/view/s/macbook-air/id/12/"><span>MacBook Air</span></a></li><li class="level1 nav-1-2 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/mac/macbook-pro-14-16"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/MacBook_Pro_m3_icon.jpg" /></div></a><a href="https://www.istore.pt/mac/macbook-pro-14-16"><span>MacBook Pro 14 e 16</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-1-3 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/mac/imac-24"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iMac_m3_icon.jpg" /></div></a><a href="https://www.istore.pt/mac/imac-24"><span>iMac 24</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-1-4 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/mac/monitores"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="https://www.istore.pt/media/catalog/category/Studio_Display_Icon.png" /></div></a><a href="https://www.istore.pt/mac/monitores"><span>Monitores</span></a></li><li class="level1 nav-1-5 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/mac/mac-studio"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/MacStudio_icon.png" /></div></a><a href="https://www.istore.pt/mac/mac-studio"><span>Mac Studio</span></a></li><li class="level1 nav-1-6 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/mac/mac-mini"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/MM-202011_category.png" /></div></a><a href="https://www.istore.pt/mac/mac-mini"><span>Mac mini</span></a></li><li class="level1 nav-1-7 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/catalog/category/view/s/comparador/id/432/"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/MacBook_Comparador_icon.png" /></div></a><a href="https://www.istore.pt/catalog/category/view/s/comparador/id/432/"><span>Comparador</span></a></li></ul></li><li class="level0 nav-2 category-item level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/ipad1" class="level-top"><span>iPad</span></a><ul class="level0 submenu"><li class="level1 nav-2-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/ipad/ipad-pro-m2"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPad_Pro_M2.jpg" /></div></a><a href="https://www.istore.pt/ipad/ipad-pro-m2"><span>iPad Pro M2</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-2-2 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/ipad/ipad-10-ger"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPad_10_ger.jpg" /></div></a><a href="https://www.istore.pt/ipad/ipad-10-ger"><span>iPad (10ª Ger.)</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-2-3 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/ipad/ipad-air-5-gen"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPad_Air_5.png" /></div></a><a href="https://www.istore.pt/ipad/ipad-air-5-gen"><span>iPad Air</span></a></li><li class="level1 nav-2-4 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/ipad/ipad-9-geracao"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPad_10.2_inch_Wi-Fi_Space_Gray_PDP_Image_Position-1__WWEN.png" /></div></a><a href="https://www.istore.pt/ipad/ipad-9-geracao"><span>iPad</span></a></li><li class="level1 nav-2-5 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/ipad/ipad-mini-8-3"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="https://www.istore.pt/media/catalog/category/iPad_mini_Wi-Fi_Space_Gray_PDP_Image_Position-1__WWEN.png" /></div></a><a href="https://www.istore.pt/ipad/ipad-mini-8-3"><span>iPad Mini</span></a></li><li class="level1 nav-2-6 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/catalog/category/view/s/comparador/id/434/"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPad_Comparador.png" /></div></a><a href="https://www.istore.pt/catalog/category/view/s/comparador/id/434/"><span>Comparador</span></a></li></ul></li><li class="level0 nav-3 category-item level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/iphone" class="level-top"><span>iPhone</span></a><ul class="level0 submenu"><li class="level1 nav-3-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-15-pro"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_15_Pro_icon.jpg" /></div></a><a href="https://www.istore.pt/iphone/iphone-15-pro"><span>iPhone 15 Pro</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-3-2 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-15"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_15_icon.png" /></div></a><a href="https://www.istore.pt/iphone/iphone-15"><span>iPhone 15</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-3-3 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-14"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_14_icon.png" /></div></a><a href="https://www.istore.pt/iphone/iphone-14"><span>iPhone 14</span></a></li><li class="level1 nav-3-4 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-13"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_13_Verde_icon.png" /></div></a><a href="https://www.istore.pt/iphone/iphone-13"><span>iPhone 13</span></a></li><li class="level1 nav-3-5 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-12"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_12_Red_category.jpg" /></div></a><a href="https://www.istore.pt/iphone/iphone-12"><span>iPhone 12</span></a></li><li class="level1 nav-3-6 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-se-2022"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_SE_2022.png" /></div></a><a href="https://www.istore.pt/iphone/iphone-se-2022"><span>iPhone SE</span></a></li><li class="level1 nav-3-7 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/iphone-11"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhone_11_Red_category2.jpg" /></div></a><a href="https://www.istore.pt/iphone/iphone-11"><span>iPhone 11</span></a></li><li class="level1 nav-3-8 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/comparar-modelos-iphone"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/iPhoneComparador_Icon.jpg" /></div></a><a href="https://www.istore.pt/iphone/comparar-modelos-iphone"><span>Comparador</span></a></li><li class="level1 nav-3-9 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/iphone/airtag"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="https://www.istore.pt/media/catalog/category/Airtag_2021_1.png" /></div></a><a href="https://www.istore.pt/iphone/airtag"><span>AirTag</span></a></li></ul></li><li class="level0 nav-4 category-item level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/airpods" class="level-top"><span>AirPods</span></a><ul class="level0 submenu"><li class="level1 nav-4-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/airpods/airpods"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/AirPods_1.jpg" /></div></a><a href="https://www.istore.pt/airpods/airpods"><span>AirPods</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-4-2 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/airpods/airpods-max"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/AirPods_Max.jpg" /></div></a><a href="https://www.istore.pt/airpods/airpods-max"><span>AirPods Max</span></a></li><li class="level1 nav-4-3 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/airpods/earpods"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/EarPods.jpg" /></div></a><a href="https://www.istore.pt/airpods/earpods"><span>EarPods</span></a></li></ul></li><li class="level0 nav-5 category-item level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/watch" class="level-top"><span>Watch</span></a><ul class="level0 submenu"><li class="level1 nav-5-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/watch/watch-ultra-2"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/Watch_Ultra_2_Icon.jpg" /></div></a><a href="https://www.istore.pt/watch/watch-ultra-2"><span>Watch Ultra 2</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-5-2 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/watch/watch-ultra"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/Watch_Ultra_Icon.png" /></div></a><a href="https://www.istore.pt/watch/watch-ultra"><span>Watch Ultra</span></a></li><li class="level1 nav-5-3 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/watch/watch-series-9"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/Watch_9_Icon.jpg" /></div></a><a href="https://www.istore.pt/watch/watch-series-9"><span>Watch Series 9</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-5-4 category-item"><a class="subcat-image-holder" href="https://www.istore.pt/watch/watch-se-2-ger"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/watch_se_icon.png" /></div></a><a href="https://www.istore.pt/watch/watch-se-2-ger"><span>Watch SE</span></a></li><li class="level1 nav-5-5 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/watch/comparador-watch"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/AW_2_Icon.jpg" /></div></a><a href="https://www.istore.pt/watch/comparador-watch"><span>Comparador</span></a></li></ul></li><li class="level0 nav-6 category-item level-top parent"><div class="mobile-plus plus">+</div><a href="https://www.istore.pt/tv" class="level-top"><span>TV</span></a><ul class="level0 submenu"><li class="level1 nav-6-1 category-item first"><a class="subcat-image-holder" href="https://www.istore.pt/tv/apple-tv-4k-3-ger"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/Apple_TV_3Ger.jpg" /></div></a><a href="https://www.istore.pt/tv/apple-tv-4k-3-ger"><span>Apple TV 4K (3ª Ger.)</span><small class="cat-new">Novo</small></a></li><li class="level1 nav-6-2 category-item last"><a class="subcat-image-holder" href="https://www.istore.pt/tv/acessorios"><div class="subcat-image has-padding-smaller-bottom"><img style="max-height: 56px;" class="img-responsive" src="/media/catalog/category/AppleTV.jpg" /></div></a><a href="https://www.istore.pt/tv/acessorios"><span>Acessórios Apple TV</span></a></li></ul></li><li class="level0 nav-7 category-item level-top"><a href="https://www.istore.pt/accessorios" class="level-top"><span>Acessórios</span></a></li><li class="level0 nav-8 category-item level-top"><a href="https://www.istore.pt/oportunidades" class="level-top"><span>Oportunidades </span></a></li><div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><li class="level0 nav-9 category-item level-top parent top_header_links_mobile hidden-md hidden-lg">
+<div class="mobile-plus plus">+</div>
+<a href="#" class="level-top"><span>Serviços</span></a>
+<ul class="level0 submenu">
+<li class="level1 nav-9-1 category-item first"><a href="https://istore.pt/blog"><span>Blog</span></a></li>
+<li class="level1 nav-9-2 category-item first"><a href="https://www.istore.pt/assistencia-tecnica"><span>Assistência Técnica</span></a></li>
+<li class="level1 nav-9-3 category-item first"><a href="https://istore.pt/empresas"><span>Empresas</span></a></li>
+<li class="level1 nav-9-4 category-item first"><a href="https://www.istore.pt/educacao"><span>Educação</span></a></li>
+<li class="level1 nav-9-5 category-item first"><a href="https://www.istore.pt/retomas"><span>Retomas</span></a></li>
+<li class="level1 nav-9-6 category-item first"><a href="https://www.istore.pt/istore-plus"><span>iStore plus</span></a></li>
+
+</ul>
+</li>
+</div> </ul>
+</nav>
+</div>
+</div>
+<div class="search-form">
+<div class="block block-search text-center">
+<div class="block block-content">
+<div class="container-fluid page-container">
+<form class="form minisearch" id="search_mini_form" action="https://www.istore.pt/catalogsearch/result/" method="get">
+<div class="form-group has-padding">
+<div class="input-group">
+<input id="search" type="text" name="q" value placeholder="Pesquise o seu produto" class="input-text form-control" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" data-block="autocomplete-form" />
+<span class="input-group-btn">
+<a href="javascript:void(0)" onclick="closeFormSearch()" class="close-btn">
+<i aria-hidden="true" class="fa fa-times fa-2x"></i>
+</a>
+</span>
+</div>
+</div>
+<button type="submit" title="Pesquisa" class="action search btn btn-custom-primary hidden">
+<span>Pesquisa</span>
+</button>
+</form>
+<div id="search_autocomplete" class="search-autocomplete"></div>
+</div>
+</div>
+</div>
+<script type="text/x-magento-init">
+{
+    "#search" :
+    {
+        "quickSearch" :
+        {
+            "formSelector":"#search_mini_form",
+            "url":"https://www.istore.pt/search/ajax/suggest/",
+            "destinationSelector":"#search_autocomplete",
+            "templates": {"term":{"title":"Termos pesquisados","template":"Smile_ElasticsuiteCore\/autocomplete\/term"},"product":{"title":"Produtos","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product"},"category":{"title":"Categorias","template":"Smile_ElasticsuiteCatalog\/autocomplete\/category"},"product_attribute":{"title":"Atributos","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product-attribute","titleRenderer":"Smile_ElasticsuiteCatalog\/js\/autocomplete\/product-attribute"}},
+            "priceFormat" : {"pattern":"%s\u00a0\u20ac","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":"\u00a0","groupLength":3,"integerRequired":false}        }
+    }
+}
+</script>
+<script type="text/javascript">
+    function showFormSearch(){
+        require([
+            'jquery'
+        ], function($){
+            $('.search-form').addClass('active');
+            setTimeout(focusSearchField, 500);
+        });
+    }
+    function closeFormSearch(){
+        require([
+            'jquery'
+        ], function($){
+            $('.search-form').removeClass('active');
+        });
+    }
+    function focusSearchField(){
+        require([
+            'jquery'
+        ], function($){
+            $('#search_mini_form input#search').focus();
+        });
+    }
+</script>
+</div>
+</header>
+<main id="maincontent" class="page-main"><div class="page messages"><div class="message-1711391046" data-bind="scope: 'messages'">
+<!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+<!-- ko if: messages().messages && messages().messages.length > 0 -->
+<div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+<div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+<div data-bind="html: message.text"></div>
+</div>
+</div>
+<!-- /ko -->
+</div>
+<script>
+    setTimeout(function() {
+        document.querySelector('.message-1711391046').remove();
+    }, 5000)
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main"><div class="row"><input name="form_key" type="hidden" value="a7Exz8SNvm3rwJoq" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+<script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.istore.pt\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.istore.pt\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.istore.pt\/","authorizationUrl":"https:\/\/appleid.apple.com\/auth\/authorize?response_type=code&response_mode=form_post&client_id=com.istore.apple-login&redirect_uri=https%3A%2F%2Fwww.istore.pt%2Fsociallogin%2Fapple%2Fcallback%2F&state=e7f396be44&usePopup=1&scope=name%20email","redirectionUrl":"https:\/\/www.istore.pt\/\/sociallogin\/apple\/redirect","isActive":"1"}</script> <!-- ko template: getTemplate() --><!-- /ko -->
+<script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"social-buttons":{"component":"Mageplaza_SocialLogin\/js\/view\/social-buttons","displayArea":"before"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.istore.pt\u002Fstatic\u002Ffrontend\u002FToogas\u002FDefault\u002Fpt_PT\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"checkout\/cart\/delete":["cart","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"checkout\/cart\/updatepost":["cart","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"checkout\/cart\/updateitemoptions":["cart","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"checkout\/cart\/couponpost":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/estimatepost":["cart","magepal-gtm-jsdatalayer"],"checkout\/cart\/estimateupdatepost":["cart","magepal-gtm-jsdatalayer"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","magepal-gtm-jsdatalayer"],"checkout\/sidebar\/removeitem":["cart","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"checkout\/sidebar\/updateitemqty":["cart","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data","magepal-gtm-jsdatalayer"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase","magepal-gtm-jsdatalayer"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"checkout_com\/payment\/placeorder":["cart"],"hipay\/hosted\/afterplaceorder":["cart","checkout-data"],"hipay\/payment\/afterplaceorder":["cart","checkout-data"],"reclaim\/checkout\/reload":["cart"],"amasty_cart\/cart\/add":["magepal-eegtm-jsdatalayer"],"amasty_jettheme\/ajax\/addtocart":["magepal-eegtm-jsdatalayer"],"sociallogin\/popup\/create":["checkout-data","cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"],"ajax\/index\/index\/action\/addtocart":["pixel-addtocart"],"newsletter\/subscriber\/new":["pixel-newsletter-subscribe"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/www.istore.pt\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","chatData","pixel-addtocart","pixel-newsletter-subscribe","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement","magepal-gtm-jsdatalayer","magepal-eegtm-jsdatalayer"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fwww.istore.pt\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "31556926",
+                "updateSessionUrl": "https\u003A\u002F\u002Fwww.istore.pt\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.istore.pt\/page_cache\/block\/render\/id\/19521\/","handles":["default","catalog_product_view","catalog_product_view_type_simple","catalog_product_view_id_19521","catalog_product_view_sku_MRW33PO%2FA","weltpixel_googlecards_remove_opengraph","weltpixel_googlecards_remove_schema"],"originalRequest":{"route":"catalog","controller":"product","action":"view","uri":"\/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<div class="clickandcollectModal">
+<div class="clickandcollect-header">
+<h3>Levantamento em 1h</h3>
+<span>Escolha uma das nossas lojas e faça o levantamento da sua encomenda de forma rápida e gratuita</span>
+<p>Receberá uma SMS quando a encomenda se encontrar pronta para levantamento.</p>
+<p>Se a encomenda for realizada e faltar menos de 1h para o fecho da loja selecionada a encomenda só estará pronta para levantamento no dia seguinte.</p>
+<p>Para usufruir deste serviço, todos os produtos da encomenda devem estar disponiveis na loja selecionada.</p> </div>
+<div class="clickandcollect-body">
+
+</div>
+</div>
+<script>
+    require(
+        [
+            'jquery',
+            'Magento_Ui/js/modal/modal'
+        ],
+        function (
+            $,
+            modal
+        ) {
+            var modaloption = {
+                type: 'popup',
+                modalClass: 'modal-popup modal-clickcollect',
+                responsive: true,
+                buttons: true
+            };
+
+            modal(modaloption, $('.clickandcollectModal'));
+
+            $('body').on('click', '.clickandcollect-label-productpage.consulting', function() {
+                $('.clickandcollectModal').css('display', 'block');
+                $('.clickandcollectModal .clickandcollect-header').css('display', 'block');
+                $('.clickandcollectModal').modal('openModal');
+            });
+
+            $('.modal-clickcollect').on('modalclosed', function() {
+                $('.clickandcollectModal').css('display', 'none');
+                $('.clickandcollectModal .clickandcollect-header').css('display', 'none');
+            });
+
+            /*$(".clickandcollect-label-catalog").on('click',function(){
+                console.log('click3...');
+                console.log($(this).attr("data-productid"));
+                var prodClickCollectModalContainer = $('.clickandcollect-body'),
+                    productClickCollectCallData = {
+                        'product_id': $(this).attr("data-productid")
+                    };
+
+                $.get(
+                    window.BASE_URL + 'ajax/index/index/action/productClickCollect',
+                    productClickCollectCallData,
+                    productClickCollectSuccess
+                ).done(function () {
+                    console.log('done');
+                    $('.clickandcollectModal').modal('openModal');
+                });
+
+                function productClickCollectSuccess(html){
+                    if (html) {
+                        prodClickCollectModalContainer.html(html);
+                    }
+                }
+
+
+            });*/
+        }
+    );
+</script><div id="OverlaySlideCar" class="slide-cart-overlay">
+<div class="slide-cart-modal-content">
+<div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<div style="margin-top: 50px" id="side_cart_cross_product">
+<script type="text/x-magento-init">
+{
+    "[data-role=tocart-form], .form.map.checkout": {
+        "catalogAddToCart": {
+            "bindSubmit": true
+         }
+     }
+}
+</script>
+</div>
+</div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":1,"display_cart_subtotal_excl_tax":0}}}}}}}}}}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/images/loader-1.gif"
+        }
+    }
+</script><div class="product col-xs-12 col-sm-7 col-lg-8 sticky">
+<div class="product-image-wrapper" data-order="0">
+<figure class="product-image-container image-wrapper">
+<div class="gallery-placeholder _block-content-loading" data-gallery-role="gallery-placeholder">
+<div data-role="loader" class="loading-mask">
+<div class="loader">
+<img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/images/loader-1.gif" alt="Carregando...">
+</div>
+</div>
+</div>
+</figure>
+</div>
+
+<script>
+    var config = {
+            "width": 700,
+            "thumbheight": 110,
+            "navtype": "slides",
+            "height": 700        },
+        thumbBarHeight = 0,
+        loader = document.querySelectorAll('[data-gallery-role="gallery-placeholder"] [data-role="loader"]')[0];
+
+    if (config.navtype === 'horizontal') {
+        thumbBarHeight = config.thumbheight;
+    }
+
+    loader.style.paddingBottom = ( config.height / config.width * 100) + "%";
+</script>
+<script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "mage/gallery/gallery": {
+                "mixins":["magnifier/magnify"],
+                "magnifierOpts": {"fullscreenzoom":"20","top":"","left":"","width":"","height":"","eventType":"hover","enabled":false,"mode":"outside"},
+                "data": [{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"1","isMain":true,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-2__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-2__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-2__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"2","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-3__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-3__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-3__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"3","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-4__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-4__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-4__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"4","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-5__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-5__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-5__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"5","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-6__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-6__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-6__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"6","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-7__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-7__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-7__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"7","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-8__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-8__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-8__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"8","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-9__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-9__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-9__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"9","isMain":false,"type":"image","videoUrl":null},{"thumb":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/91e8f48657b7ded96fa5eb7ff26570d5\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-10__wwen.jpg","img":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/47a7b1d3a04ad63771ce52f5c8c5c41d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-10__wwen.jpg","full":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/2af64371c3b9ea77c33a5f751e099e05\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-10__wwen.jpg","caption":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","position":"10","isMain":false,"type":"image","videoUrl":null}],
+                "options": {
+                    "nav": "thumbs",
+                                            "loop": 1,
+                                                                "keyboard": 1,
+                                                                "arrows": 1,
+                                                                "allowfullscreen": 1,
+                                                            "width": "700",
+                    "thumbwidth": "88",
+                                            "thumbheight": 110,
+                                                                "height": 700,
+                                                                "transitionduration": 500,
+                                        "transition": "slide",
+                                            "navarrows": 1,
+                                        "navtype": "slides",
+                    "navdir": "horizontal"
+                },
+                "fullscreen": {
+                    "nav": "thumbs",
+                                            "loop": 1,
+                                        "navdir": "horizontal",
+                                        "navtype": "slides",
+                                            "arrows": 1,
+                                                                                    "transitionduration": 500,
+                                        "transition": "slide"
+                },
+                "breakpoints": {"mobile":{"conditions":{"max-width":"767px"},"options":{"options":{"nav":"dots"}}}}            }
+        }
+    }
+</script><script type="text/x-magento-init">
+    {
+        "[data-gallery-role=gallery-placeholder]": {
+            "Magento_ProductVideo/js/fotorama-add-video-events": {
+                "videoData": [{"mediaType":"image","videoUrl":null,"isBase":true},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false},{"mediaType":"image","videoUrl":null,"isBase":false}],
+                "videoSettings": [{"playIfBase":"0","showRelated":"0","videoAutoRestart":"0"}],
+                "optionsVideoData": []            }
+        }
+    }
+</script>
+</div><div class="product-info-main col-xs-12 col-sm-5 col-lg-4">
+<script text="text/javascript">
+  require(['domReady!'], function () {
+    var _learnq = window._learnq || [];
+    _learnq.push(['track', 'Viewed Product', {"ProductID":"19521","Name":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","SKU":"MRW33PO\/A","URL":"https:\/\/www.istore.pt\/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral","Price":"4,349.00","FinalPrice":"4,349.00","Categories":["MacBook Pro 14 e 16"],"ImageURL":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/f3271781e1fad5609482f2fccac2806d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg"}]);
+    _learnq.push(['trackViewedItem', {"Title":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","ItemId":"19521","Url":"https:\/\/www.istore.pt\/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral","Categories":["MacBook Pro 14 e 16"],"Metadata":{"Price":"4,349.00"},"ImageURL":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/f3271781e1fad5609482f2fccac2806d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg"}]);
+  });
+</script>
+<div class="product-details"><div class="prod-details-top">
+<h2 class="prod-name bold has-padding-small-bottom" itemprop="name">MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral</h2>
+<div class="short-desc-container has-padding-smaller-bottom" itemprop="description"><ul>
+<li>
+<p>Processador M3 Max da Apple com CPU 14‑core, GPU 30‑core, Ray tracing acelerado por hardware.</p>
+</li>
+<li>
+<p>Ecrã Liquid Retina XDR de 16,2" (diagonal); resolução de 3456x2234 píxeis a 254 píxeis por polegada</p>
+</li>
+<li>
+<p> 1Tb de armazenamento SSD</p>
+</li>
+<li>
+<p> 36 GB de memória unificada</p>
+</li>
+<li>
+<p> 3 portas Thunderbolt/USB 4</p>
+</li>
+<li>
+<p> Wi‑Fi 6E (802.11ax), Bluetooth 5.3</p>
+</li>
+<li>2,16 kg</li>
+</ul></div>
+<div class="extra-desc-container1 has-padding-smaller-bottom hidden"><p><img src="https://www.istore.pt/media/wysiwyg/MiniBannerProdutos/MiniBanner_BN_3_MacBook.png" alt style="width: 100%"><br>*Oferta limitada a stock existente.</p><style>.vp_box {width: 100%;border: 2px solid red;padding-left: 14px;padding-top: 14px;margin: 0px;border-radius: 15px;}vp_text {margin: 2px;}</style></head><body><p></p><div class="vp_box" id="vp_text"><p><span style="color:red;font-weight:700;font-size:25px;">3849,90€</span><br><strong>De 17/11/2023 a 03/12/2023</strong><br>Promoção exclusiva para membros iStore Plus. Se ainda não és membro faz a tua inscrição <a href="https://www.istore.pt/istore-plus" style="text-decoration: none; font-weight: 700; color: red">aqui</a></p><br></div></div>
+<div class="extra-desc-container2 has-padding-smaller-bottom hidden"></div>
+<div class="label-product label-sale">
+<span id="product-sale-label" class="sale-product-icon">
+</span>
+</div>
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price-container">
+<div class="price-regular" itemprop="priceCurrency" content="EUR">
+<span itemprop="price" content="
+   	       
+            
+
+
+        4 349,00 €
+        
+    
+
+
+">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19521" data-price-box="product-id-19521">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19521" data-price-amount="4349" data-price-type="finalPrice" class="price-wrapper "><span class="price">4 349,00 €</span></span>
+</span>
+</div> </span>
+<span itemprop="url" content="https://www.istore.pt/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral"></span>
+<p class="copy-law-message has-padding-smaller-top">A taxa da lei da cópia já está incluída no preço deste produto.</p>
+<div id="product-price-edu-holder">
+</div>
+</div>
+</div>
+<div class="review-container pull-right">
+</div>
+</div>
+<div class="santander-payment"> <div class="payin-creditpay">
+<div class="creditpay-individual">
+<span class="bulle small-bulle">
+<span>10</span>
+<span>x</span>
+</span>
+<span class="price" style="color: red"><span class="price">434,90 €</span> </span>
+<span class="title open-creditpay-simulation"><img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_CreditPayment/images/interog.png" />
+</span>
+</div>
+<div class="creditpay-individual">
+<span class="bulle small-bulle">
+<span>12</span>
+<span>x</span>
+</span>
+<span class="price" style="color: red"><span class="price">362,42 €</span> </span>
+<span class="title open-creditpay-simulation"><img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_CreditPayment/images/interog.png" />
+</span>
+</div>
+<div class="creditpay-individual">
+<span class="bulle small-bulle">
+<span>24</span>
+<span>x</span>
+</span>
+<span class="price" style="color: red"><span class="price">181,21 €</span> </span>
+<span class="title open-creditpay-simulation"><img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_CreditPayment/images/interog.png" />
+</span>
+</div>
+<div class="creditpay-individual">
+<span class="bulle small-bulle">
+<span>36</span>
+<span>x</span>
+</span>
+<span class="price" style="color: red"><span class="price">120,81 €</span> </span>
+<span class="title open-creditpay-simulation"><img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_CreditPayment/images/interog.png" />
+</span>
+</div>
+</div>
+<div id="creditpay-container-catalog" class="creditpay-container-catalog modal-hidden pt">
+<dl id="creditpay-description" class="creditpay-description">
+<dt id="santander-header">
+<img class="santander-logo" src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_Checkx/images/payment/Santander_x2.png" alt="Santander Logo" />
+<span class="close santander-close">×</span>
+<div class="santander-title">
+<span><strong>PAGA COM FINANCIAMENTO</strong></span>
+</div>
+</dt>
+<dd class="santander-describer">
+<span class="bulle x-time medium-bulle">
+<span>10</span>
+<span>x</span>
+</span>
+<div class="simulation-description">
+<div class="month-price">
+<strong style="font-size: 18px"><span class="price">434,90 €</span></strong>
+</div>
+<div class="simulation-description-sub">
+Total: <span class="price">4 349,00 €</span> </div>
+<div>
+<strong class="simulation-description-sub">TAEG: 0,0% TAN: 0,00%</strong>
+</div>
+<div class="simulation-description-sub">
+MTIC: <span class="price">4 349,00 €</span> </div>
+<div class="simulation-description-sub">
+Comissão:<span class="price">0,00 €</span> </div>
+<div class="santander-disclaimer">
+<span style="font-size: 10px">(Acrescem impostos legais em vigor)</span>
+</div>
+</div>
+</dd>
+<dd class="santander-describer">
+<span class="bulle x-time medium-bulle">
+<span>12</span>
+<span>x</span>
+</span>
+<div class="simulation-description">
+<div class="month-price">
+<strong style="font-size: 18px"><span class="price">362,42 €</span></strong>
+</div>
+<div class="simulation-description-sub">
+Total: <span class="price">4 349,00 €</span> </div>
+<div>
+<strong class="simulation-description-sub">TAEG: 14,6% TAN: 0,00%</strong>
+</div>
+<div class="simulation-description-sub">
+MTIC: <span class="price">4 656,04 €</span> </div>
+<div class="simulation-description-sub">
+Comissão:<span class="price">230,50 €</span> </div>
+<div class="santander-disclaimer">
+<span style="font-size: 10px">(Acrescem impostos legais em vigor)</span>
+</div>
+</div>
+</dd>
+<dd class="santander-describer">
+<span class="bulle x-time medium-bulle">
+<span>24</span>
+<span>x</span>
+</span>
+<div class="simulation-description">
+<div class="month-price">
+<strong style="font-size: 18px"><span class="price">181,21 €</span></strong>
+</div>
+<div class="simulation-description-sub">
+Total: <span class="price">4 349,00 €</span> </div>
+<div>
+<strong class="simulation-description-sub">TAEG: 11,8% TAN: 0,00%</strong>
+</div>
+<div class="simulation-description-sub">
+MTIC: <span class="price">4 816,95 €</span> </div>
+<div class="simulation-description-sub">
+Comissão:<span class="price">391,41 €</span> </div>
+<div class="santander-disclaimer">
+<span style="font-size: 10px">(Acrescem impostos legais em vigor)</span>
+</div>
+</div>
+</dd>
+<dd class="santander-describer">
+<span class="bulle x-time medium-bulle">
+<span>36</span>
+<span>x</span>
+</span>
+<div class="simulation-description">
+<div class="month-price">
+<strong style="font-size: 18px"><span class="price">120,81 €</span></strong>
+</div>
+<div class="simulation-description-sub">
+Total: <span class="price">4 349,00 €</span> </div>
+<div>
+<strong class="simulation-description-sub">TAEG: 7,8% TAN: 0,00%</strong>
+</div>
+<div class="simulation-description-sub">
+MTIC: <span class="price">4 816,95 €</span> </div>
+<div class="simulation-description-sub">
+Comissão:<span class="price">391,41 €</span> </div>
+<div class="santander-disclaimer">
+<span style="font-size: 10px">(Acrescem impostos legais em vigor)</span>
+</div>
+</div>
+</dd>
+<div class="open-creditpay-pedagogique_modal close-simulation" style=" text-align: center;">
+<p class="title bold-style" style="font-size: 0.8rem">Quero saber mais</p>
+</div>
+</dl>
+</div>
+<script>
+        requirejs(
+            [
+                'jquery',
+                'Magento_Ui/js/modal/modal'
+            ],
+            function ($, modal) {
+                "use strict";
+
+                var options = {
+                    type: 'popup',
+                    responsive: true,
+                    innerScroll: true,
+                    title: '',
+                    buttons: []
+                };
+                if ($('#creditpay_pedagogique_modal').length) {
+                    var popup = modal(options, $('#creditpay_pedagogique_modal'));
+
+                    $(".open-creditpay-pedagogique_modal").on('click', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        $(".modal-inner-wrap").css("width","46%");
+                        $(".modal-inner-wrap").addClass('creditpay');
+                        $("#creditpay_pedagogique_modal").modal("openModal").on('modalclosed',function () {
+                            $(".modal-inner-wrap").css("width","auto");
+                            $(".modal-inner-wrap").removeClass('creditpay')
+                        });
+                        // support for floa modals
+                        // Toogas/FloaInfo/view/frontend/web/js/floaInfo.js
+                        $('#floa-modal-3x').addClass('modal-hidden');
+                        $('#floa-modal-4x').addClass('modal-hidden');
+                    });
+                }
+
+
+                $(".open-simulation").on('click', function (e) {
+                    $("#creditpay-container-catalog").addClass('modal-hidden');
+                });
+                $(".open-creditpay-simulation").on('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $("#container_oney_simulation").css({'display': 'none'});
+                    $("#creditpay-container-catalog").removeClass('modal-hidden');;
+
+                    // support for floa modals
+                    // Toogas/FloaInfo/view/frontend/web/js/floaInfo.js
+                    $('#floa-modal-3x').addClass('modal-hidden');
+                    $('#floa-modal-4x').addClass('modal-hidden');
+                });
+
+                $(".santander-close").on('click', function () {
+                    $("#creditpay-container-catalog").addClass('modal-hidden');
+                });
+
+                document.addEventListener("click", function(e){
+                    var div = document.getElementById('creditpay-container-catalog');
+                    var clic = e.target;
+
+                    if(div.style.display == "block" && clic != div){
+                        div.addClass('modal-hidden')
+                    }
+                }, false);
+            }
+        );
+    </script>
+<div id="creditpay_pedagogique_modal" hidden="true" style="overflow-y: hidden">
+<div class="pedagogique_creditpay">
+<div class="header_pedagogique">
+<img class="checkout-review-element-santander" src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_Checkx/images/payment/Santander_x2.png" />
+<div class="title_block">
+<span style="font-weight: 500">PAGA COM</span><span style="font-weight: 700"> FINANCIAMENTO</span>
+</div>
+</div>
+<div class="content_pedagogique">
+<div class="step_nbr_pedagogique">
+<span class="nbr_pedagogique">1</span>
+<span class="nbr_pedagogique">2</span>
+<span class="nbr_pedagogique">3</span>
+</div>
+<div class="step_pedagogique">
+<div class="bloc_pedagogique">
+<div class="content_align first-block">
+<div class="title-block">
+<p class="title_pedagogique choose">Seleciona</p>
+</div>
+<div class="align-block">
+<img class="creditpaylogo" src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Toogas_CreditPayment/images/3x_4x_oney_sem_custos.png">
+</div>
+</div>
+</div>
+<div class="bloc_pedagogique">
+<div class="content_align">
+<div class="title-block">
+<p class="title_pedagogique ask_information">Conta-nos mais</p>
+</div>
+<div class="last-sentence">
+<p>
+Preenche o formulário e faz upload da documentação necessária. </p>
+</div>
+</div>
+</div>
+<div class="bloc_pedagogique">
+<div class="content_align">
+<div class="title-block">
+<p class="title_pedagogique immediate_response">Feito!</p>
+</div>
+<div class="last-sentence">
+<p>Valida a documentação contratual e assina digitalmente o teu contrato.</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="a-center">
+</div>
+<div class="santander-payment" style="padding-top: 22px;">
+<div class="instalments_modal">
+<div style="padding-bottom: 6px;padding-top: 10px;">
+<span class="bulle small-bulle">
+<span>10</span>
+<span>x</span>
+</span>
+</div>
+<div>
+<span>
+Contrato de Crédito Pessoal, outras finalidades, exemplo, PVP de <span class="price">1 179,00 €</span> montante
+financiado de <span class="price">1 179,00 €</span>, 9 prestações de <span class="price">117,90 €</span> e a última de <span class="price">117,90 €</span>, taxa fixa,
+TANO,000%, TAEG de 0,0% para um
+montante total imputado ao consumidor de <span class="price">1 179,00 €</span>. Acresce comissão de abertura de contrato de <span class="price">0,00 €</span> e impostos legais em vigor de <span class="price">0,00 €</span> liquidados juntamente com a 1ª prestação. Condições válidas até
+31/12/2023, condicionadas à TAEG máxima em vigor à data da contratação, nos termos do Art.° 28° do
+DL133/2009, se aplicável. A iStore SA registada no Bdp com o nᵒ003460 atua como intermediario de
+credito a titulo acessorio do santander Consumer Finance. Intorme-se no
+<a href="https://www.santanderconsumer.pt" style="color: #e90000">Santander
+Consumer Finance</a> e <a href="https://www.istore.pt/media/oney/default/Informacao_credito.pdf" style="color: #e90000">aqui</a>.
+</span>
+</div>
+<div style="padding-bottom: 6px;padding-top: 10px;">
+<span class="bulle small-bulle">
+<span>12</span>
+<span>x</span>
+</span>
+</div>
+<div>
+<span>
+Contrato de Crédito Pessoal, outras finalidades, exemplo, PVP de <span class="price">1 179,00 €</span> montante
+financiado de <span class="price">1 179,00 €</span>, 12 prestações de <span class="price">98,25 €</span>, taxa fixa,
+TANO,000%, TAEG de 14,6% para um
+montante total imputado ao consumidor de <span class="price">1 262,24 €</span>. Acresce comissão de abertura de contrato de <span class="price">62,49 €</span> e impostos legais em vigor de <span class="price">20,75 €</span> liquidados juntamente com a 1ª prestação. Condições válidas até
+31/12/2023, condicionadas à TAEG máxima em vigor à data da contratação, nos termos do Art.° 28° do
+DL133/2009, se aplicável. A iStore SA registada no Bdp com o nᵒ003460 atua como intermediario de
+credito a titulo acessorio do santander Consumer Finance. Intorme-se no
+<a href="https://www.santanderconsumer.pt" style="color: #e90000">Santander
+Consumer Finance</a> e <a href="https://www.istore.pt/media/oney/default/Informacao_credito.pdf" style="color: #e90000">aqui</a>.
+</span>
+</div>
+<div style="padding-bottom: 6px;padding-top: 10px;">
+<span class="bulle small-bulle">
+<span>24</span>
+<span>x</span>
+</span>
+</div>
+<div>
+<span>
+Contrato de Crédito Pessoal, outras finalidades, exemplo, PVP de <span class="price">1 179,00 €</span> montante
+financiado de <span class="price">1 179,00 €</span>, 23 prestações de <span class="price">49,13 €</span> e a última de <span class="price">49,01 €</span>, taxa fixa,
+TANO,000%, TAEG de 14,3% para um
+montante total imputado ao consumidor de <span class="price">1 329,44 €</span>. Acresce comissão de abertura de contrato de <span class="price">129,69 €</span> e impostos legais em vigor de <span class="price">20,75 €</span> liquidados juntamente com a 1ª prestação. Condições válidas até
+31/12/2023, condicionadas à TAEG máxima em vigor à data da contratação, nos termos do Art.° 28° do
+DL133/2009, se aplicável. A iStore SA registada no Bdp com o nᵒ003460 atua como intermediario de
+credito a titulo acessorio do santander Consumer Finance. Intorme-se no
+<a href="https://www.santanderconsumer.pt" style="color: #e90000">Santander
+Consumer Finance</a> e <a href="https://www.istore.pt/media/oney/default/Informacao_credito.pdf" style="color: #e90000">aqui</a>.
+</span>
+</div>
+<div style="padding-bottom: 6px;padding-top: 10px;">
+<span class="bulle small-bulle">
+<span>36</span>
+<span>x</span>
+</span>
+</div>
+<div>
+<span>
+Contrato de Crédito Pessoal, outras finalidades, exemplo, PVP de <span class="price">1 179,00 €</span> montante
+financiado de <span class="price">1 179,00 €</span>, 36 prestações de <span class="price">32,75 €</span>, taxa fixa,
+TANO,000%, TAEG de 14,6% para um
+montante total imputado ao consumidor de <span class="price">1 395,46 €</span>. Acresce comissão de abertura de contrato de <span class="price">195,71 €</span> e impostos legais em vigor de <span class="price">20,75 €</span> liquidados juntamente com a 1ª prestação. Condições válidas até
+31/12/2023, condicionadas à TAEG máxima em vigor à data da contratação, nos termos do Art.° 28° do
+DL133/2009, se aplicável. A iStore SA registada no Bdp com o nᵒ003460 atua como intermediario de
+credito a titulo acessorio do santander Consumer Finance. Intorme-se no
+<a href="https://www.santanderconsumer.pt" style="color: #e90000">Santander
+Consumer Finance</a> e <a href="https://www.istore.pt/media/oney/default/Informacao_credito.pdf" style="color: #e90000">aqui</a>.
+</span>
+</div>
+</div>
+</div>
+<script>
+            requirejs([
+                'jquery'
+            ], function($) {
+                $(document).on('click', function (e) {
+                    if ($(e.target).closest("#creditpay_pedagogique_modal").length === 0) {
+                    }
+                });
+            })
+        </script>
+</div>
+</div><div class="floa-info-payment"><div class="floa-payment-methods">
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app" : {
+                "components" : {
+                    "floaInfo" : {
+                        "component" : "Toogas_FloaInfo/js/floaInfo"
+                    }
+                }
+            }
+        }
+    }
+</script>
+</div><div class="oney-payment"> <div id="simulateur-oney" class="pt">
+<div id="container_oney_simulation" class="oneyPopup container_oney_simulation_catalog">
+<img class="logo-oney" width="80" src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Oney_ThreeByFour/images/3x_4x_oney_sem_custos.png" />
+<div class="legend_oney">
+<span>PAGA COM</span></br>
+<span><strong>CARTÃO DE DÉBITO OU CRÉDITO</strong></span>
+</div>
+<div class="close close-simulation">×</div>
+</div>
+</div>
+<script>
+        requirejs(
+            [
+                'jquery',
+                'Magento_Ui/js/modal/modal'
+            ],
+            function ($, modal) {
+                "use strict";
+
+                var options = {
+                    type: 'popup',
+                    responsive: true,
+                    innerScroll: true,
+                    title: '',
+                    buttons: []
+                };
+
+                if ($('#oney_pedagogique_modal').length) {
+                    var popup = modal(options, $('#oney_pedagogique_modal'));
+
+                    $(".open-pedagogique_modal").on('click', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        $(".modal-inner-wrap").css("width","50%")
+                        $("#oney_pedagogique_modal").modal("openModal").on('modalclosed',function () {
+                            $(".modal-inner-wrap").css("width","auto")
+                        });
+                    });
+                }
+
+                $(".open-simulation").on('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $("#container_oney_simulation").css({'display': 'block'});
+                });
+
+                $(".close-simulation").on('click', function () {
+                    $("#container_oney_simulation").css({'display': 'none'});
+                });
+
+                document.addEventListener("click", function(e){
+                    var div = document.getElementById('container_oney_simulation');
+                    var clic = e.target;
+
+                    if(div.style.display == "block" && clic != div){
+                        div.style.display = "none";
+                    }
+                }, false);
+            }
+        );
+    </script>
+</div><div class="product-form">
+<form data-product-sku="MRW33PO/A" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19521/minicart/1/" method="post" id="product_addtocart_form">
+<input type="hidden" id="hidden-parend-prod-id" name="product" value="19521" />
+<input type="hidden" name="selected_configurable_option" value />
+<input type="hidden" name="related_product" id="related-products-field" value />
+<input name="form_key" type="hidden" value="a7Exz8SNvm3rwJoq" /> <div class="prod-sale-section">
+<div class="has-padding-small-top">
+<div class="add-to-cart-wish-holder has-padding-smaller-top">
+<div>
+<p></p>
+</div>
+<div class="mobile-back">
+<button type="submit" title="Encomendar" class="btn btn-custom-primary action primary tocart" data-productid="19521" id="product-addtocart-button">
+Encomendar </button>
+</div>
+<a href="#" title="Adicionar aos Favoritos" data-post="{&quot;action&quot;:&quot;https:\/\/www.istore.pt\/wishlist\/index\/add\/&quot;,&quot;data&quot;:{&quot;product&quot;:19521,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs&quot;}}" class="action towishlist " data-action="add-to-wishlist">
+<i aria-hidden="true" class="fa fa-heart-o"></i>
+</a>
+</div>
+</div>
+<div class="clickandcollect-productpage">
+<span style="display: none;" class="clickandcollect-label-productpage">
+<img class="clickcollect-icon" src="https://www.istore.pt/media/clickcollect/default/icon_click_collect.png">
+<span class="clickcollect-text">Levantamento - 1H</span>
+</span>
+</div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "#product_addtocart_form": {
+            "Magento_Catalog/js/validate-product": {}
+        }
+    }
+</script>
+<script type="text/javascript">
+        require(["jquery"],function($) {
+            $(document).ready(function() {
+                var prodClickCollectModalContainer = $('.clickandcollect-body'),
+                productClickCollectCallData = {
+                    'product_id': 19521                };
+
+                $.get(
+                    window.BASE_URL + 'ajax/index/index/action/productClickCollect',
+                    productClickCollectCallData,
+                    productClickCollectSuccess
+                ).done(function () {
+                    //console.log('done');
+                });
+
+                function productClickCollectSuccess(html){
+                    if (html) {
+                        prodClickCollectModalContainer.html(html);
+                    }
+                }
+            });
+        });
+    </script>
+<div id="services-container">
+</div></form>
+<script>
+    require([
+        'jquery',
+        'priceBox'
+    ], function($){
+        var dataPriceBoxSelector = '[data-role=priceBox]',
+            dataProductIdSelector = '[data-product-id=19521]',
+            priceBoxes = $(dataPriceBoxSelector + dataProductIdSelector);
+
+        priceBoxes = priceBoxes.filter(function(index, elem){
+            return !$(elem).find('.price-from').length;
+        });
+
+        priceBoxes.priceBox({'priceConfig': {"productId":"19521","priceFormat":{"pattern":"%s\u00a0\u20ac","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":"\u00a0","groupLength":3,"integerRequired":false},"tierPrices":[]}});
+    });
+</script>
+</div><hr/>
+<div class="row">
+<div class="wrap-holder availabilities-holder text-center">
+<div class="col-xs-6 availability-item">
+<div class="has-padding-smaller-top product-availabiity">
+<i aria-label="true" class="fa fa-cube fa-2x has-padding-smaller-bottom"></i>
+<p>Disponibilidade online</p>
+<p id="availability-label-holder">
+<span class="label label-primary">Por encomenda</span>
+</p>
+</div>
+</div>
+<div class="col-xs-6 availability-item">
+<div class="has-padding-smaller-top" id="ajax-availability">
+<i aria-label="true" class="fa fa-map-pin fa-2x has-padding-smaller-bottom"></i>
+<p>Disponibilidade em loja</p>
+<div class="dropdown">
+<a class="dropdown-toggle btn btn-light-custom btn-sm" type="button" data-toggle="dropdown">
+Verificar <span class="caret"></span>
+</a>
+<div class="dropdown-menu dropdown-menu-right" id="collapse-availability"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    require(['jquery', 'jquery/ui'], function($){
+        var $parent = $('#collapse-availability');
+        $('#ajax-availability [type="button"]').on('click', function(){
+            var $btn = $(this);
+            if(!$btn.hasClass('ajax-complete')) {
+                $.ajax({
+                    method: "GET",
+                    url: "https://www.istore.pt/ajax/index/availability/",
+                    data: { prod_id: "MRW33PO/A" },
+                    dataType: "json",
+                    beforeSend: function() {
+                        $parent.html('<i aria-hidden="true" class="fa fa-spinner fa-spin"></i>');
+                    },
+                    success: function(data) {
+                        if(!data.error) {
+                            $parent.html(data.html);
+                            $btn.addClass('ajax-complete');
+                        }
+                    },
+                    error : function(xhr) {
+                        console.log(xhr);
+                    }
+                });
+            }
+        });
+
+
+    });
+</script><div id="swogo-bundle-0" class="swogo-box"></div>
+<br>
+</div></div><script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/www.istore.pt\/cookie\/index\/noCookies\/","triggers":[".action.tocompare"],"isRedirectCmsPage":true}        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+                "Magento_Catalog/js/product/view/provider": {
+                    "data": {"items":{"19521":{"add_to_cart_button":{"post_data":"{\"action\":\"https:\\\/\\\/www.istore.pt\\\/ajax\\\/index\\\/index\\\/action\\\/addtocart\\\/uenc\\\/%25uenc%25\\\/product\\\/19521\\\/minicart\\\/1\\\/\",\"data\":{\"product\":\"19521\",\"uenc\":\"%uenc%\"}}","url":"https:\/\/www.istore.pt\/ajax\/index\/index\/action\/addtocart\/uenc\/%25uenc%25\/product\/19521\/minicart\/1\/","required_options":false},"add_to_compare_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/www.istore.pt\\\/catalog\\\/product_compare\\\/add\\\/\",\"data\":{\"product\":\"19521\",\"uenc\":\"aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs\"}}","required_options":null},"price_info":{"final_price":4349,"max_price":4349,"max_regular_price":4349,"minimal_regular_price":4349,"special_price":null,"minimal_price":4349,"regular_price":4349,"formatted_prices":{"final_price":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>","max_price":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>","minimal_price":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>","max_regular_price":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>","minimal_regular_price":null,"special_price":null,"regular_price":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>"},"extension_attributes":{"msrp":{"msrp_price":"<span class=\"price\">0,00\u00a0\u20ac<\/span>","is_applicable":"","is_shown_price_on_gesture":"","msrp_message":"","explanation_message":"Our price is lower than the manufacturer&#039;s &quot;minimum advertised price.&quot; As a result, we cannot show you the price in catalog or the product page. <br><br> You have no obligation to purchase the product once you know the price. You can simply remove the item from your cart."},"tax_adjustments":{"final_price":3535.7723567236,"max_price":3535.7723567236,"max_regular_price":3535.7723567236,"minimal_regular_price":3535.7723567236,"special_price":3535.7723567236,"minimal_price":3535.7723567236,"regular_price":3535.7723567236,"formatted_prices":{"final_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>","max_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>","minimal_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>","max_regular_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>","minimal_regular_price":null,"special_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>","regular_price":"<span class=\"price\">3\u00a0535,77\u00a0\u20ac<\/span>"}},"weee_attributes":[],"weee_adjustment":"<span class=\"price\">4\u00a0349,00\u00a0\u20ac<\/span>"}},"images":[{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/56540aab5f9e597bff1054b650bd3196\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_viewed_products_grid_content_widget","height":300,"width":240,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":240,"resized_height":300},{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/8beb278a0bec32fed5bb9d4243a81432\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_viewed_products_list_content_widget","height":340,"width":270,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":270,"resized_height":340},{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/dd78fc7e9239ab703a0515865e321c0d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_viewed_products_images_names_widget","height":90,"width":75,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":75,"resized_height":90},{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/56540aab5f9e597bff1054b650bd3196\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_compared_products_grid_content_widget","height":300,"width":240,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":240,"resized_height":300},{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/8beb278a0bec32fed5bb9d4243a81432\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_compared_products_list_content_widget","height":340,"width":270,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":270,"resized_height":340},{"url":"https:\/\/www.istore.pt\/media\/catalog\/product\/cache\/dd78fc7e9239ab703a0515865e321c0d\/m\/a\/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg","code":"recently_compared_products_images_names_widget","height":90,"width":75,"label":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","resized_width":75,"resized_height":90}],"url":"https:\/\/www.istore.pt\/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral","id":19521,"name":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","type":"simple","is_salable":"1","store_id":1,"currency_code":"EUR","extension_attributes":{"review_html":"    <div class=\"product-reviews-summary short empty\">\n        <div class=\"reviews-actions\">\n            <a class=\"action add\" href=\"https:\/\/www.istore.pt\/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral#review-form\">\n                Seja o primeiro a avaliar este produto            <\/a>\n        <\/div>\n    <\/div>\n","wishlist_button":{"post_data":null,"url":"{\"action\":\"https:\\\/\\\/www.istore.pt\\\/wishlist\\\/index\\\/add\\\/\",\"data\":{\"product\":19521,\"uenc\":\"aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs\"}}","required_options":null}},"is_available":true}},"store":"1","currency":"EUR","productCurrentScope":"website"}            }
+        }
+    }
+</script>
+<div id="oney_pedagogique_modal" hidden="true" style="overflow-y: hidden">
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Oney_ThreeByFour/js/modal": {}
+            }
+        }
+
+        </script>
+<script>
+            requirejs([
+                'jquery'
+            ], function($) {
+                $(document).on('click', function (e) {
+                    if ($(e.target).closest("#oney_pedagogique_modal").length === 0) {
+                        //$("#oney_pedagogique_modal").modal("closeModal")
+                    }
+                });
+            })
+        </script>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        if (typeof hero !== 'undefined') {
+            hero("track", {
+                type: "ecommerce:detail",
+                products: [
+                    {
+                        id: "MRW33PO/A",
+                        name: "MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral",
+                        image: "https://www.istore.pt/media/catalog/product/m/a/macbook_pro_16_in_m3_pro_max_space_black_pdp_image_position-1__wwen.jpg",
+                        price: 4349,
+                        currency: "EUR",
+                                                brand: "APPLE",
+                                                                        category: "Mac",
+                                                location: "https://www.istore.pt/apple-mb-pro-16-m3-max-14c-cpu-30c-gpu-1tb-preto-sideral"
+                    }
+                ]
+            });
+        }
+    });
+</script></div><div class="product-information-wrapper"><br><br>
+<div id="swogo-bundle-1" class="swogo-box"></div>
+<div class="product-info-container has-padding-top">
+<div class="panel panel-custom panel-collapse panel-additional">
+<div class="panel-heading collapsed" data-toggle="collapse" href="#panel-additional" role="button" aria-expanded="false" aria-controls="panel-additional">
+<h3 class="panel-title bold-normal">Especificações</h3>
+</div>
+<div class="panel-body collapse" id="panel-additional">
+<div class="table-responsive-stack">
+<table class="table table-condensed">
+<tbody>
+<tr>
+<td>
+<span>Fabricante</span>
+</td>
+<td>
+<span>APPLE</span>
+</td>
+</tr>
+<tr>
+<td>
+<span>Modelo</span>
+</td>
+<td>
+<span>MacBook Pro 16 M3</span>
+</td>
+</tr>
+<tr>
+<td>
+<span>Cor</span>
+</td>
+<td>
+<span>Preto-Sideral</span>
+</td>
+</tr>
+<tr>
+<td>
+<span>Processador</span>
+</td>
+<td>
+<span>Processador M3 Max da Apple</span>
+</td>
+</tr>
+<tr>
+<td>
+<span>Armazenamento</span>
+</td>
+<td>
+<span>1TB SSD</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    requirejs([
+        'jquery'
+    ], function($) {
+        $(document).ready(function () {
+            hideMobile()
+        });
+
+        $(document).ajaxComplete(function(event,request, settings){
+            hideMobile();
+        });
+
+        function hideMobile(){
+            let mq = window.matchMedia("(max-width: 767px)");
+            if (mq.matches) {
+                $('#panel-additional').collapse('hide');
+            }
+        }
+    })
+</script>
+</div><div class="product-related has-padding-tall-top">
+<div class="block related" data-mage-init="{&quot;relatedProducts&quot;:{&quot;relatedCheckbox&quot;:&quot;.related.checkbox&quot;}}" data-limit="0" data-shuffle="0">
+<div class="block-title title">
+<h2 class="bold-normal has-padding-small-bottom text-center" id="block-related-heading" role="heading" aria-level="2">Produtos Relacionados</h2>
+</div>
+<div class="block-content content has-padding-bottom" aria-labelledby="block-related-heading">
+<div class="products wrapper grid products-grid products-related">
+<div class="product-slider-wrapper no-frame">
+<div class="slider-btn btn-left"><i aria-hidden="true" class="fa fa-caret-left fa-2x"></i></div>
+<div class="product-slider-holder products-listing-container">
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/configurar-macbook-pro-14-m3" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/configurar-macbook-pro-14-m3" title="Configurar MacBook Pro 14 M3" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/b/mb14si_2.jpeg" title="Configurar MacBook Pro 14 M3" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">Configurar MacBook Pro 14 M3</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="29934" data-price-box="product-id-29934">
+<span class="normal-price">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span class="price-label">Desde</span>
+<span id="product-price-29934" data-price-amount="2049" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 049,00 €</span></span>
+</span>
+</span>
+<span class="old-price sly-old-price no-display hidden">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="old-price-29934" data-price-amount="2049" data-price-type="oldPrice" class="price-wrapper "><span class="price">2 049,00 €</span></span>
+</span>
+</span>
+</div> </div>
+</div>
+</div>
+<div class="product-item-color-swatches clear-element has-padding-small-top has-padding-small-bottom text-center"><span class="catalog-color-circle" style="background-color: #4e4d4b;"></span><span class="catalog-color-circle" style="background-color: #dddddd;"></span><span class="catalog-color-circle" style="background: url(https://www.istore.pt/media/attribute/swatch/i/p/iphone-pro-finish-spaceblack-2022.jpg);"></span></div> </a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<a class="btn btn-custom-primary" href="https://www.istore.pt/configurar-macbook-pro-14-m3">Ver Produto</a>
+</div>
+</div>
+</form>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/configurar-macbook-pro-16-m3" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/configurar-macbook-pro-16-m3" title="Configurar MacBook Pro 16 M3" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/b/mb16bl_3.jpeg" title="Configurar MacBook Pro 16 M3" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">Configurar MacBook Pro 16 M3</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="29397" data-price-box="product-id-29397">
+<span class="normal-price">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span class="price-label">Desde</span>
+<span id="product-price-29397" data-price-amount="3099" data-price-type="finalPrice" class="price-wrapper "><span class="price">3 099,00 €</span></span>
+</span>
+</span>
+<span class="old-price sly-old-price no-display hidden">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="old-price-29397" data-price-amount="3099" data-price-type="oldPrice" class="price-wrapper "><span class="price">3 099,00 €</span></span>
+</span>
+</span>
+</div> </div>
+</div>
+</div>
+<div class="product-item-color-swatches clear-element has-padding-small-top has-padding-small-bottom text-center"><span class="catalog-color-circle" style="background-color: #dddddd;"></span><span class="catalog-color-circle" style="background: url(https://www.istore.pt/media/attribute/swatch/i/p/iphone-pro-finish-spaceblack-2022.jpg);"></span></div> </a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<a class="btn btn-custom-primary" href="https://www.istore.pt/configurar-macbook-pro-16-m3">Ver Produto</a>
+</div>
+</div>
+</form>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19517/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m3-8c-cpu-10c-gpu-512gb-prateado" title="MB Pro 14 M3 8c CPU/10c GPU 512GB Prateado" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_m3_silver_pdp_image_position_1__wwen.jpg" title="MB Pro 14 M3 8c CPU/10c GPU 512GB Prateado" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MB Pro 14 M3 8c CPU/10c GPU 512GB Prateado</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19517" data-price-box="product-id-19517">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19517" data-price-amount="2049" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 049,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19531/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m3-8c-cpu-10c-gpu-512gb-cinzento-sideral" title="MB Pro 14 M3 8c CPU/10c GPU 512GB Cinzento sideral" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_m3_space_gray_pdp_image_position_1__wwen_1.jpg" title="MB Pro 14 M3 8c CPU/10c GPU 512GB Cinzento sideral" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MB Pro 14 M3 8c CPU/10c GPU 512GB Cinzento sideral</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19531" data-price-box="product-id-19531">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19531" data-price-amount="2049" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 049,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19532/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m3-8c-cpu-10c-gpu-1tb-cinzento-sideral" title="MB Pro 14 M3 8c CPU/10c GPU 1TB Cinzento sideral" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_m3_space_gray_pdp_image_position_1__wwen.jpg" title="MB Pro 14 M3 8c CPU/10c GPU 1TB Cinzento sideral" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MB Pro 14 M3 8c CPU/10c GPU 1TB Cinzento sideral</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19532" data-price-box="product-id-19532">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19532" data-price-amount="2279" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 279,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19518/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m3-8c-cpu-10c-gpu-1tb-prateado" title="MB Pro 14 M3 8c CPU/10c GPU 1TB Prateado" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_m3_silver_pdp_image_position_1__wwen_1.jpg" title="MB Pro 14 M3 8c CPU/10c GPU 1TB Prateado" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MB Pro 14 M3 8c CPU/10c GPU 1TB Prateado</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19518" data-price-box="product-id-19518">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19518" data-price-amount="2279" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 279,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/17810/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m2-pro-10c-16c-512gb-cinz-sid" title="MacBook Pro M2 14 Pro CPU 10-core GPU 16-core 512GB Cinzento Sideral" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_14_in_space_gray_pdp_image_position-1__wwen_3.jpg" title="MacBook Pro M2 14 Pro CPU 10-core GPU 16-core 512GB Cinzento Sideral" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MacBook Pro M2 14 Pro CPU 10-core GPU 16-core 512GB Cinzento Sideral</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="17810" data-price-box="product-id-17810">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-17810" data-price-amount="2469" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 469,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+<div class="product-slider-item products-listing-item" style="display: flex">
+<form data-show-loader-in-button="true" data-role="tocart-form" action="https://www.istore.pt/ajax/index/index/action/addtocart/uenc/aHR0cHM6Ly93d3cuaXN0b3JlLnB0L2FwcGxlLW1iLXByby0xNi1tMy1tYXgtMTRjLWNwdS0zMGMtZ3B1LTF0Yi1wcmV0by1zaWRlcmFs/product/19528/minicart/1/" method="POST" style="display: flex">
+<div style="display: flex; flex-direction: column;">
+<div style="flex: 1 1 auto;">
+<a href="https://www.istore.pt/apple-mb-pro-14-m3-pro-11c-cpu-14c-gpu-512gb-prateado" title="MB Pro 14 M3 Pro 11c CPU/14c GPU 512GB Prateado" class="listing-item-link">
+<div class="listing-img">
+<figure class="image-wrapper">
+<img class="img-responsive" src="https://www.istore.pt/media/catalog/product/cache/8b9a569afe91183a050edf8372e05696/m/a/macbook_pro_14_in_m3_pro_max_silver_pdp_image_position_1__wwen_1.jpg" title="MB Pro 14 M3 Pro 11c CPU/14c GPU 512GB Prateado" />
+</figure>
+</div>
+<div class="listing-info text-center has-padding-small-top">
+<div class="listing-info-container">
+<h4 class="has-padding-small-bottom">MB Pro 14 M3 Pro 11c CPU/14c GPU 512GB Prateado</h4>
+<div class="price-container">
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="19528" data-price-box="product-id-19528">
+<span class="price-container price-final_price&#x20;tax&#x20;weee">
+<span id="product-price-19528" data-price-amount="2599" data-price-type="finalPrice" class="price-wrapper "><span class="price">2 599,00 €</span></span>
+</span>
+</div> </div>
+</div>
+</div>
+</a>
+
+</div>
+<div class="text-center has-padding-small-top">
+<button type="submit" title="Add to Cart" class="btn btn-custom-primary action tocart primary">
+<span>Adicionar ao Carrinho</span>
+</button>
+</div>
+</div>
+</form>
+<script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form]": {
+                "catalogAddToCart": {
+                    "bindSubmit": true
+                }
+            }
+        }
+    </script>
+</div>
+</div>
+<div class="slider-btn btn-right"><i aria-hidden="true" class="fa fa-caret-right fa-2x"></i></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></main><footer>
+<div class="text-center container-fluid page-container">
+<div class=" has-padding-top has-padding-small-bottom" style="font-size:12px;">
+Salvo indicação em contrário, os descontos e campanhas apresentados são válidos para o dia 14-01-2024, salvo erro tipográfico ou de imagem e até ruptura de stock. Todos os valores incluem IVA à taxa legal em vigor e podem ser alterados sem aviso prévio.
+As imagens podem não corresponder ao produto descrito. A iStore declina qualquer responsabilidade sobre eventuais erros nas descrições e/ou referências dos produtos. Recomendamos sempre a confirmação das imagens e características no site do fabricante. Por questões técnicas, as cores apresentadas podem diferir ligeiramente das cores reais.
+</div>
+<hr class="has-no-margin" /></div> <div class="container-fluid page-container has-padding">
+<div class="foot-breadcrumbs">
+<ul class="list-inline" itemscope itemtype="http://schema.org/BreadcrumbList">
+<li class="item home" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid="https://www.istore.pt/" href="https://www.istore.pt/" title="Início">
+<span itemprop="name">Início</span>
+</a>
+<meta itemprop="position" content="1" />
+<i aria-hidden="true" class="fa fa-chevron-right crumb-separator"></i>
+<span itemprop="name" content="Início"></span>
+</li>
+<li class="item cms_page" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<span itemscope itemtype="http://schema.org/Thing" itemprop="item" itemid href>MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral</span>
+<meta itemprop="position" content="2" />
+<span itemprop="name" content="MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral"></span>
+</li>
+</ul>
+</div>
+<hr/>
+<div class="footer">
+<div class="footer-links">
+<div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<style type="text/css">
+	#wachat a {
+		position: fixed;
+		z-index: 9999;
+		right: 0;
+		float: right;
+		top: 40%;
+		margin-top: -25px;
+		cursor: pointer;
+		min-width: 50px;
+		max-width: 150px;
+		color: #fff;
+		text-align: center;
+		padding: 10px;
+		margin: 0 auto 0 auto;
+		background: #20b038;
+		-webkit-transition: All .5s ease;
+		-moz-transition: All .5s ease;
+		-o-transition: All .5s ease;
+		-ms-transition: All .5s ease;
+		transition: All .5s ease
+</style>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+<div class="row">
+<div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3">
+<div class="text-center">
+<h4 class="has-padding-smaller-bottom">Newsletter</h4>
+<p>Subscreve a nossa Newsletter para receber notícias, promoções e novidades de produtos.</p>
+</div>
+<form class="newsletter-form" action="https://www.istore.pt/ajax/index/index/action/subscribenewsletter/" method="POST" data-mage-init="{&quot;validation&quot;:{}}">
+<div class="input-group"> <input type="text" id="check_hidden_captcha_newsletter" name="check_hidden_captcha_newsletter" style="display: none;" value="0">
+<input class="form-control" name="email" required type="email" placeholder="O teu email" />
+<input type="text" id="website" name="website" style="display: none;">
+<div class="input-group-btn"><button class="btn btn-custom-primary" name="submit" id="newsletter-form-submit" type="submit"> <i class="fa fa-chevron-right"></i> </button></div>
+</div>
+<div class="mage-error" style="color: red; display: none;"></div>
+<div class="hidden-checkboxes" style="display: none;"> <div class="zone-header">
+<p></p>
+</div>
+<div class="field" style="padding-bottom: 10px;">
+<input id="newsletter_1_834" type="checkbox" name="todaprok[1]" style="display: inline-block;" class="checkbox required-entry" data-permission-id="1" value="1" title="Newsletter" required>
+<label style="display: inline;" for="newsletter_1_834">
+Quero receber comunicações personalizadas com base nas minhas preferências. </label>
+</div>
+<input type="hidden" name="todaprok[ids]" value="1">
+</div>
+<div class="g-recaptcha hide"></div>
+</form>
+</div>
+</div>
+<div class="has-padding-smaller">
+<hr/>
+</div>
+<div class="row">
+<div class="wrap-holder">
+<div class="col-sm-3 col-xs-6 col-xxs">
+<div class="footer-link-group">
+<h5 class="has-padding-smaller-bottom">Informações</h5>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/storepickup/">Lojas</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/sobre-nos-istore/">Sobre Nós</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/ecossistema/">Ecossistema Apple</a>
+</li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/politica-de-privacidade/">Política
+de Privacidade</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/politica-de-cookies/">Política de
+Cookies</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/termos-e-condicoes/">Termos e
+Condições</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.livroreclamacoes.pt/inicio" target="_blank">Livro de Reclamações</a></li>
+<li class="has-padding-smaller-bottom"><a href="/cdn-cgi/l/email-protection#7d0d0f120b1819120f3d140e09120f18530d09">Provedor</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/recrutamento/">Recrutamento</a></li>
+
+</ul>
+</div>
+</div>
+<div class="col-sm-3 col-xs-6 col-xxs">
+<div class="footer-link-group has-padding-smaller-bottom">
+<h5 class="has-padding-smaller-bottom">Serviços</h5>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/assistencia-tecnica">Assistência Técnica</a>
+</li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/envios-e-entregas/">Envios e
+Entregas</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/trocas-e-devolucoes/">Trocas e
+Devoluções</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/istore/Financiamento/Informacao_credito_iStore.pdf">Informações de Financiamento</a></li>
+</ul>
+</div>
+<div class="footer-link-group has-padding-smaller-bottom">
+<h5 class="has-padding-smaller-bottom">Educação</h5>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/educacao">Descontos Educação</a></li>
+</ul>
+</div>
+<div class="footer-link-group has-padding-smaller-bottom">
+<h5 class="has-padding-smaller-bottom">Clientes</h5>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/customer/account/login/">Login</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-sm-3 col-xs-6 col-xxs">
+<div class="footer-link-group">
+<a href="https://www.istore.pt/storepickup/"><h5 class="has-padding-smaller-bottom" style="text-decoration: none; color: black;">Lojas</h5></a>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/nova-arcada/" ">Nova Arcada </a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/espaco-guimar-es/">Espaço Guimarães</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/mar-shopping-matosinhos/">Mar
+Shopping Matosinhos</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/norteshopping/">NorteShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/parque-nascente/">Parque Nascente</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/arrabida-shopping/" ">ArrábidaShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/gaiashopping/">GaiaShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/8-avenida/">8ª Avenida</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/forum-coimbra/">Forum Coimbra</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/leiriashopping/">LeiriaShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/louresshopping/">LoureShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/ubboshopping/">UBBO Shopping Resort</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/vascodagama/">Vasco da Gama</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/oeiras-parque/">Oeiras Parque</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/algarve-shopping/">AlgarveShopping</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/madeirashopping/">MadeiraShopping</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-3 col-xs-6 col-xxs">
+<div class="footer-link-group ">
+<h5 class="has-padding-smaller-bottom">Contactos</h5>
+<ul>
+<li class="has-padding-smaller-bottom"><a href="tel:220 046 130">220 046 130<br>(chamada para a rede fixa nacional)</a></li>
+<li class="has-padding-smaller-bottom"><a href="https://www.istore.pt/linhas-de-atendimento/">Todos os Contatos</a></li>
+</ul>
+</div>
+<div class="footer-link-group ">
+<h5 class="has-padding-smaller-bottom"></h5>
+<ul>
+<a href="https://www.facebook.com/iStorePT/?locale=pt_PT" class="fab fa-facebook" style="text-decoration: none; color: black; font-size: 20px; padding-right: 5px;"></a>
+<a href="https://www.instagram.com/istore_pt/" class="fab fa-instagram" style="text-decoration: none; color: black; font-size: 20px; padding-right: 5px;"></a>
+<a href="https://www.linkedin.com/company/istorept/" class="fab fa-linkedin" style="text-decoration: none; color: black; font-size: 20px; padding-right: 5px;"></a>
+<a href="https://www.youtube.com/@istore_pt" class="fab fa-youtube" style="text-decoration: none; color: black; font-size: 20px; padding-right: 5px;"></a>
+<a href="https://www.tiktok.com/@istore_pt" class="fab fa-tiktok" style="text-decoration: none; color: black; font-size: 20px;"></a>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="footer-rights">
+<p><a href="https://www.istore.pt/pub/media/wysiwyg/Ficha_de_Projeto_iStore.pdf" target="blank"><img class="img-responsive" src="https://www.istore.pt/media/wysiwyg/compete2020_istore.png" alt="Compete2020"></a> </p>
+<br>
+<p>ISTORE, S.A., com sede Centro Empresarial do Freixieiro, Rua Antero de Quental, 351, 4455-586 Perafita, Portugal e pessoa coletiva n° 507 773 195.</p>
+<p>
+Copyright © 2019 iStore. Todos os direitos reservados. <span class="pull-right">Made by <a href="https://www.toogas.com" target="_blank">Toogas</a></span></p>
+</div></div> </div>
+</div>
+</div>
+</footer>
+<div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><style>
+
+#wachat a{
+width:52px!important;
+height:52px!important;
+bottom:35px !important;
+}
+
+ @media only screen and (max-width: 600px) {
+#wachat a{
+
+bottom:25px !important;
+}
+}
+#wachat a img{
+width:40px!important
+}
+
+.post-image img.img-responsive{
+max-width:100%;
+}
+
+.post-item-wraper:hover{
+border:none!important;
+box-shadow:none!important;
+}
+
+.mp-blog-view{
+padding-top:0!important;
+}
+
+.mpblog-post-view .post-view-image img {
+width:100%;
+border-radius:25px 25px 0 0;
+}
+
+.mpblog-post-view .post-view-image{
+height:275px;
+overflow:hidden;
+}
+
+div.post-info-wraper > div.mp-post-meta-info.mp-alignright > div > a{
+background:black;
+border-color:black;
+border-radius:25px;
+font-weight:300;
+}
+
+div.post-info-wraper > div.mp-post-meta-info.mp-alignright > div > a:hover{
+background:#666666;
+border-color:#666666;
+}
+
+
+
+/** TOOGAS HOTFIX MENU **/
+body header .header-container .navigation .level-top .submenu a span {
+    padding: 2px 20px;
+    display: block;
+}
+
+/** MKT HOTFIX MENU MOBILE **/
+header .header-container .navigation .level-top.active .submenu {
+transform:none!important;
+}
+
+
+.prod-details-top h2{
+font-size:28px!important;
+}
+
+.catalog-product-view .payin-oney .price{
+font-size:14px!important;
+}
+
+div.extra-desc-container2.has-padding-smaller-bottom > p > img {
+width:100%;
+}
+
+.vp_box {
+ width:100% !important;
+}
+
+.swatch-option {
+border-radius: 4px;
+}
+
+/* TOOGAS */
+.btn-social .fa {
+    font-family: "FontAwesome", serif;
+}
+.floa-first-payment {
+     font-size: 18px;
+     vertical-align: bottom;
+}
+.cart-container .payin-creditpay .price{
+    min-width: 70px;
+}
+.payin-creditpay .price{
+    min-width: 0;
+}
+
+
+
+/** LOGO ISTORE **/
+@media screen and (max-width:1199px){
+.hidden-xs>.logo>img{
+margin:auto;
+left:0;
+right:0;
+position:absolute;
+
+}}
+
+
+/** SWIPERS **/
+
+ swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiperHomepage,
+    .swiperGeral,
+    .swiper_landscape {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiperHomepage>.swiper-button-next,
+    .swiperHomepage>.swiper-button-prev,
+    .swiperGeral>.swiper-button-next,
+    .swiperGeral>.swiper-button-prev {
+        background-color: #f2f2f2 !important;
+        color: black !important;
+        border-radius: 50% !important;
+        width: 45px !important;
+        height: 45px !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .swiperHomepage>.swiper-button-next:after,
+    .swiperHomepage>.swiper-button-prev:after,
+    .swiperGeral>.swiper-button-next:after,
+    .swiperGeral>.swiper-button-prev:after {
+        font-size: 20px !important;
+    }
+
+    .swiperHomepage>.swiper-button-disabled,
+    .swiperGeral>.swiper-button-next.swiper-button-disabled,
+    .swiperGeral>.swiper-button-prev.swiper-button-disabled {
+        opacity: 0 !important;
+    }
+
+    .swiperHomepage>.swiper-wrapper>.swiper-slide>a>img,
+    .swiperGeral>.swiper-wrapper>.swiper-slide>a>img {
+        transition: transform 0.3s ease-in-out, box-shadow 0.8s ease-in-out;
+    }
+
+    .swiperHomepage>.swiper-wrapper>.swiper-slide>a:hover>img,
+    .swiperGeral>.swiper-wrapper>.swiper-slide>a:hover>img {
+        transform: scale(1.02);
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .swiperHomepage>.swiper-homepage-next,
+        .swiperHomepage>.swiper-homepage-prev,
+        .swiperGeral>.swiper-button-next,
+        .swiperGeral>.swiper-button-prev {
+            display: none !important;
+        }
+        .swiper-slide-landscape {
+            width: 80% !important;
+        }
+    }
+
+    @media only screen and (min-width:601px) {
+
+        .swiper-slide-geral,
+        .swiper-slide-homepage {
+            width: 20% !important;
+        }
+
+        .swiper-slide-landscape {
+            width: 70% !important;
+        }
+    }
+
+
+    @media only screen and (min-width: 768px) {
+        .first_slide {
+            margin-left: -25%;
+        }
+    }
+
+    .swiper_landscape>.swiper-wrapper>.swiper-slide:not(.swiper-slide-active) {
+        opacity: 0.5;
+    }
+
+
+
+    .swiper_landscape>.swiper-button-next,
+    .swiper_landscape>.swiper-button-prev {
+        top: 0 !important;
+        background-color: transparent !important;
+        color: transparent !important;
+        border-radius: 0% !important;
+        width: 13% !important;
+        height: 100% !important;
+        box-shadow: none !important;
+    }
+
+    .swiper_landscape>.swiper-button-next.swiper-button-disabled,
+    .swiper_landscape>.swiper-button-prev.swiper-button-disabled {
+        opacity: 1 !important;
+        pointer-events: initial;
+    }
+
+    .swiper_landscape>.swiper-wrapper>.swiper-slide>a>img {
+        transition: transform 0.3s ease-in-out, box-shadow 0.8s ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .swiper_landscape>.swiper-pagination-bullets {
+        bottom: 35px;
+    }
+
+    .swiper_landscape>.swiper-landscape-pagination>.swiper-pagination-bullet-active {
+        background: black !important;
+    }
+
+    .swiper_landscape>.swiper-wrapper>.swiper-slide>a:hover>img {
+        transform: scale(1.01);
+    }
+
+
+</style></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.istore.pt\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.istore.pt\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.istore.pt\/rest\/pt\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.istore.pt\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+<div id="wachat">
+<a href="https://web.whatsapp.com/send?phone=+351913527846&amp;text=" onclick="gtag('event', 'WhatsApp', {'event_action': 'whatsapp_chat', 'event_category': 'Chat', 'event_label': 'Chat_WhatsApp'});" target="_blank" class="btn-web" style="position: fixed;z-index: 9999;right: 0;float: right;top: 40%;margin-top: -25px;cursor: pointer;min-width: 50px;max-width: 150px;color: #fff;text-align: center;padding: 10px;margin: 0 auto 0 auto;background: #20b038;-webkit-transition: All .5s ease;-moz-transition: All .5s ease;-o-transition: All .5s ease;-ms-transition: All .5s ease;transition: All .5s ease">
+<img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Dangs_WhatsAppChat/images/button.png" alt="WA button">
+</a>
+<a href="https://wa.me/+351913527846?text=" onclick="gtag('event', 'WhatsApp', {'event_action': 'whatsapp_chat', 'event_category': 'Chat', 'event_label': 'Chat_WhatsApp'});" target="_blank" class="btn-mobile">
+<img src="https://www.istore.pt/static/frontend/Toogas/Default/pt_PT/Dangs_WhatsAppChat/images/button.png" alt="WA button">
+</a>
+</div>
+
+<style type="text/css">
+    #hero-iframe-container div.hero-launcher-container {
+        right: 9px;
+    }
+    #hero-iframe-container div.hero-launcher-avatar-container{
+        position: fixed;
+        z-index: 1;
+        top: auto!important;
+        bottom: 27px;
+        border-radius: 35px;
+        padding: 10px!important;
+        right: 10px;
+        height: 50px;
+        width: 50px;
+        color:#fff;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    #hero-iframe-container div.hero-launcher-container{
+        -webkit-transition: All .5s ease;-moz-transition: All .5s ease;-o-transition: All .5s ease;-ms-transition: All .5s ease;transition: All .5s ease
+    }
+    #hero-iframe-container .hero-launcher-container .hero-launcher-avatar-container.standard iframe.hero-launcher-avatar {
+        margin-top: -16px;
+        margin-left: -10px!important;
+        width: 55px;
+    }
+    #open-chats{
+        position: fixed;
+        z-index: 99999999999999999999999999;
+        background-color: black;
+        top: auto!important;
+        bottom: 34px;
+        border-radius: 35px;
+        padding: 10px!important;
+        right: 10px;
+        height: 62px;
+        width: 62px;
+        color:#fff;
+        cursor: pointer;
+    }
+    #open-chats .close-img{
+        width: 100%;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: -webkit-transform;
+        -moz-transition-property: -moz-transform;
+        -o-transition-property: -o-transform;
+        transition-property: transform;
+    }
+
+    .move-wachat{
+        right: 90px!important;
+    }
+    .move-klarna .hero-launcher-container{
+        right: 140px!important;
+    }
+    #wachat a{
+        top: auto!important;
+        bottom: 42px;
+        border-radius: 35px;
+        padding: 10px!important;
+        right: 1vw !important;
+        height: 62px;
+        width: 62px;
+    }
+
+    #wachat a img{
+        margin-top: -5px;
+        margin-left: -3px;
+        width: 50px;
+    }
+    .dnone-icon{
+        display: none;
+    }
+	@media(max-width: 768px) {
+		#wachat .btn-web{
+			display: none;
+		}
+	}
+	@media(min-width: 768px) {
+		#wachat .btn-mobile{
+			display: none;
+		}
+	}
+</style>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "addToCartAjaxGa4DataLayer": {
+                "dataLayerName": "dataLayer",
+                "currency": "EUR"
+            }
+        }
+    }
+</script>
+<script>window.HeroWebPluginSettings = { applicationId: "be3472da-049e-47ae-a427-34237c42e06d" };</script>
+<script>(function(i,a,m,h,e,r,o){i.HeroObject=e;i[e]=i[e]||function(){(i[e].q=i[e].q||[]).push(arguments)},i[e].l=1*new Date;r=a.createElement(m),o=a.getElementsByTagName(m)[0];r.async=1;r.src=h;o.parentNode.insertBefore(r,o)})(window,document,"script","https://cdn.usehero.com/loader.js","hero");</script>
+<script type="text/x-magento-init">
+{
+  "*": {
+    "Toogas_Hero/js/heroCart": {}
+  }
+}
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "ga4DataLayer": {
+                "dataLayerName": "dataLayer",
+                "data": [{"event":"view_item","ecommerce":{"items":[{"item_id":"MRW33PO\/A","item_name":"MB Pro 16 M3 Max 14c CPU\/30c GPU 1TB Preto sideral","p_id":19521,"currency":"EUR","price":4349}],"currency":"EUR","value":3535.77},"_clear":true},{"event":"view_item_list","ecommerce":{"items":[{"item_name":"Configurar MacBook Pro 14 M3","item_id":"CTO-MB14M3","price":2049,"item_list_name":"Related","item_list_id":"related","index":1,"currency":"EUR","quantity":1,"p_id":29934},{"item_name":"Configurar MacBook Pro 16 M3","item_id":"CTO-MB16M3","price":3099,"item_list_name":"Related","item_list_id":"related","index":2,"currency":"EUR","quantity":1,"p_id":29397},{"item_name":"MB Pro 14 M3 8c CPU\/10c GPU 512GB Prateado","item_id":"MR7J3PO\/A","price":2049,"item_list_name":"Related","item_list_id":"related","index":3,"currency":"EUR","quantity":1,"p_id":19517},{"item_name":"MB Pro 14 M3 8c CPU\/10c GPU 512GB Cinzento sideral","item_id":"MTL73PO\/A","price":2049,"item_list_name":"Related","item_list_id":"related","index":4,"currency":"EUR","quantity":1,"p_id":19531},{"item_name":"MB Pro 14 M3 8c CPU\/10c GPU 1TB Cinzento sideral","item_id":"MTL83PO\/A","price":2279,"item_list_name":"Related","item_list_id":"related","index":5,"currency":"EUR","quantity":1,"p_id":19532},{"item_name":"MB Pro 14 M3 8c CPU\/10c GPU 1TB Prateado","item_id":"MR7K3PO\/A","price":2279,"item_list_name":"Related","item_list_id":"related","index":6,"currency":"EUR","quantity":1,"p_id":19518},{"item_name":"MacBook Pro M2 14 Pro CPU 10-core GPU 16-core 512GB Cinzento Sideral","item_id":"MPHE3PO\/A","price":2469,"item_list_name":"Related","item_list_id":"related","index":7,"currency":"EUR","quantity":1,"p_id":17810},{"item_name":"MB Pro 14 M3 Pro 11c CPU\/14c GPU 512GB Prateado","item_id":"MRX63PO\/A","price":2599,"item_list_name":"Related","item_list_id":"related","index":8,"currency":"EUR","quantity":1,"p_id":19528}],"currency":"EUR","item_list_name":"Related","item_list_id":"related"},"_clear":true}],
+                "productLists": [{"item_list_name":"Related","item_list_id":"related","class_name":".products-related .product-item a[class*=\"product-item-\"]","container_class":"li.product-item"}]            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "addToCartGa4DataLayer": {
+                "dataLayerName": "dataLayer",
+                "currency": "EUR"
+            }
+        }
+    }
+</script>
+</div><script>
+
+    
+    /**
+     * Verifica o comportamento de navegação do utilizador
+     */
+    checkUserBehavior();
+
+    /**
+     * Define o tipo de página atualmente aberta,e acrescenta os dados
+     * respetivos de cada serviço ativo
+     * @type {string}
+     */
+    coreAnalytics.pageType = 'catalog_product_view';
+    
+
+    /**
+     * Atribui o PHPSESSID, MagentoSessionID e a linguagem atual ao objeto da ToogasAnalytics
+     */
+    toogasAnalytics.PHPSESSID = "";
+    toogasAnalytics.MagentoSessionID = "ebqp15hlm6ta9hgccjiko1gv5d";
+    toogasAnalytics.current_language = 'pt';
+
+    coreAnalytics.current_search = '';
+
+    /**
+     * Inicia os serviços
+     */
+    initServices('EUR','catalog_product_view');
+
+    /**
+     * De acordo com o tipo de página, efetua operações e retorna dados distintos
+     */
+                    var viewProductEvent = {
+                    id : "19521",
+                    sku: "MRW33PO/A",
+                    price: "4349,00",
+                    name : "MB Pro 16 M3 Max 14c CPU/30c GPU 1TB Preto sideral",
+                                            category: "MacBook Pro 14 e 16",
+                                        description : "",
+                    quantity : "0",
+                    status : "1"
+                };
+                coreAnalytics.sendGlobalProductViewEvent(viewProductEvent);
+            </script> <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-ef462ee15878ef2f7ca","applicationID":"461652406","transactionName":"MhBSZQoZXRcHABJbXwtacVIMEVwKSQAHRlEJGlceCApcABMAEh1GDBBH","queueTime":0,"applicationTime":2604,"atts":"HldRE0IDThk=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body>
+</html>

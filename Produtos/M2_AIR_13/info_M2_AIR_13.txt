@@ -1,0 +1,5 @@
+Tamanho: 13
+Cor: Cizento
+Modelo Processador: M2
+Capacidade da memória incorporada: 8 GB
+Capacidade total de armazenamento: 512 GB
