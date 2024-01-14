@@ -1,0 +1,5 @@
+Tamanho: 14
+Cor: Cinzento
+Modelo Processador: M3
+Capacidade da memória incorporada: 8 GB
+Capacidade total de armazenamento: 512GB
