@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 
-root = "home/royo/Documents/IAP_Projeto_Final/Produtos"
+root = "/home/royo/Documents/IAP_Projeto_Final/Produtos"
 pattern_file = r"\blist_\w+"
 pattern_link = r"https?://(?:www\.)?([^/.]+)\."
 
