@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 
-root = "./Produtos/"
+root = "home/royo/Documents/IAP_Projeto_Final/Produtos"
 pattern_file = r"\blist_\w+"
 pattern_link = r"https?://(?:www\.)?([^/.]+)\."
 
@@ -58,13 +58,6 @@ def write_html_to_path(html, date, path, site):
         with open (path_file, 'w') as file:
             file.write(html)
             print(f"File {path_file} written")
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
