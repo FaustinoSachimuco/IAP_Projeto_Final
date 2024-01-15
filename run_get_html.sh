@@ -4,7 +4,7 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 python_script="$script_dir/get_html.py"
 
 if [ -f "$python_script" ]; then
-  python "$python_script"
+  python3 "$python_script"
   echo "Python Script $python_script started"
 
   cd "$script_dir"
