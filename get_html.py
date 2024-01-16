@@ -47,7 +47,7 @@ def read_file_links(file_path) -> list[str]:
 
 def write_html_to_path(html, date, path, site):
     path_folder = path + "/" + site
-    path_file = path_folder + "/" + date + ".txt"
+    path_file = path_folder + "/" + date + ".html"
 
     if not os.path.exists(path_folder):
         os.makedirs(path_folder)
